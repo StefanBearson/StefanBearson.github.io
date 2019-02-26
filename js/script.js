@@ -2,6 +2,7 @@ window.onload = function () {
     printlist();
 
 };
+
 let dataindex;
 let dataindex2;
 

@@ -1,3 +1,7 @@
+body{
+   /*filter: sepia(0) contrast(1) brightness(1) saturate(1) hue-rotate(-24deg);*/
+ }
+
 a{
   color: #bfbfbf;
 }
@@ -6,3 +10,33 @@ footer{
   background-color: #2a2b28;
   color: #6e6c65;
 }
+#bildPåMig{
+  height: 100%;
+  width: 100%;
+  border: 10px solid rgba(30, 146, 189, 0.53);
+}
+
+.card{
+  border-radius: 3px;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.50);
+}
+
+.card-header{
+  border-radius: 3px;
+}
+
+.btn{
+  border-radius: 2px;
+}
+
+/*.sticky {*/
+  /*position: fixed!important;*/
+  /*overflow: hidden;*/
+  /*top: 0px!important;*/
+  /*width: 100%;*/
+/*}*/
+
+/*.sticky + .content {*/
+  /*padding-top: 60px;*/
+/*}*/
