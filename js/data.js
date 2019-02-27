@@ -12,7 +12,6 @@ template =[
 ]
 
 kurser = [
-
     {
         "kurs": "C#",
         "plats": "EC Utbildning AB Helsingborg",
@@ -20,7 +19,8 @@ kurser = [
         "längd": "30 YH-poäng",
         "lärare": "Robert Tublen",
         "länkkurs": "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
-        "länklärare": "https://www.linkedin.com/in/rtublen/"
+        "länklärare": "https://www.linkedin.com/in/rtublen/",
+        "avklarat": "100"
     },
     {
         "kurs": "ASP.NET (CORE) MVC",
@@ -29,7 +29,8 @@ kurser = [
         "längd": "25 YH-poäng",
         "lärare": "Robert Tublen",
         "länkkurs": "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
-        "länklärare": "https://www.linkedin.com/in/rtublen/"
+        "länklärare": "https://www.linkedin.com/in/rtublen/",
+        "avklarat": "100"
     },
     {
         "kurs": "Datalagring med .NET",
@@ -38,7 +39,8 @@ kurser = [
         "längd": "25 YH-poäng",
         "lärare": "Robert Tublen",
         "länkkurs": "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
-        "länklärare": "https://www.linkedin.com/in/rtublen/"
+        "länklärare": "https://www.linkedin.com/in/rtublen/",
+        "avklarat": "100"
     },
     {
         "kurs": "HTML & CSS",
@@ -47,7 +49,8 @@ kurser = [
         "längd": "25 YH-poäng",
         "lärare": "Björn Jönsson",
         "länkkurs": "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
-        "länklärare": "https://www.linkedin.com/in/bj%C3%B6rn-j%C3%B6nsson-7a69501/"
+        "länklärare": "https://www.linkedin.com/in/bj%C3%B6rn-j%C3%B6nsson-7a69501/",
+        "avklarat": "100"
     },
     {
         "kurs": "JavaScript",
@@ -56,7 +59,8 @@ kurser = [
         "längd": "25 YH-poäng",
         "lärare": "Björn Jönsson",
         "länkkurs": "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
-        "länklärare": "https://www.linkedin.com/in/bj%C3%B6rn-j%C3%B6nsson-7a69501/"
+        "länklärare": "https://www.linkedin.com/in/bj%C3%B6rn-j%C3%B6nsson-7a69501/",
+        "avklarat": "100"
     },
     {
         "kurs": "Total Frontend Website Creation HTML CSS JavaScript jQuery",
@@ -65,7 +69,8 @@ kurser = [
         "längd": "8.5 timmar video",
         "lärare": "Laurence Svekis",
         "länkkurs": "https://www.udemy.com/frontend-website-developer-html-css-javascript-jquery/",
-        "länklärare": "https://www.udemy.com/user/lars51/"
+        "länklärare": "https://www.udemy.com/user/lars51/",
+        "avklarat": "100"
     },
     {
         "kurs": "C# Basics for Beginners: Learn C# Fundamentals by Coding",
@@ -74,7 +79,8 @@ kurser = [
         "längd": "5.5 timmar video",
         "lärare": "Mosh Hamedani",
         "länkkurs": "https://www.udemy.com/csharp-tutorial-for-beginners/",
-        "länklärare": "https://www.udemy.com/user/moshfeghhamedani/"
+        "länklärare": "https://www.udemy.com/user/moshfeghhamedani/",
+        "avklarat": "100"
     },
     {
         "kurs": "C# Intermediate: Classes, Interfaces and OOP",
@@ -83,7 +89,8 @@ kurser = [
         "längd": "6 timmar video",
         "lärare": "Mosh Hamedani",
         "länkkurs": "Mosh Hamedani",
-        "länklärare": "https://www.udemy.com/user/moshfeghhamedani/"
+        "länklärare": "https://www.udemy.com/user/moshfeghhamedani/",
+        "avklarat": "100"
     },
     {
         "kurs": "C# Advanced Topics: Prepare for Technical Interviews",
@@ -92,7 +99,8 @@ kurser = [
         "längd": "3 timmar video",
         "lärare": "Mosh Hamedani",
         "länkkurs": "Mosh Hamedani",
-        "länklärare": "https://www.udemy.com/user/moshfeghhamedani/"
+        "länklärare": "https://www.udemy.com/user/moshfeghhamedani/",
+        "avklarat": "100"
     },
     {
         "kurs": "Java Programming Masterclass for Software Developers",
@@ -101,7 +109,8 @@ kurser = [
         "längd": "77,5 timmar video",
         "lärare": "Tim Buchalka",
         "länkkurs": "https://www.udemy.com/java-the-complete-java-developer-course/",
-        "länklärare": "https://www.udemy.com/user/timbuchalka/"
+        "länklärare": "https://www.udemy.com/user/timbuchalka/",
+        "avklarat": "100"
     },
     {
         "kurs": "JavaFx Tutorial For Beginners",
@@ -110,7 +119,8 @@ kurser = [
         "längd": "7.5 timmar video",
         "lärare": "Yogesh Patel",
         "länkkurs": "https://www.udemy.com/draft/665098/",
-        "länklärare": "https://www.udemy.com/user/programmingknowledge/"
+        "länklärare": "https://www.udemy.com/user/programmingknowledge/",
+        "avklarat": "100"
     },
     {
         "kurs": "3d modelling - a Modo modeling guide",
@@ -119,7 +129,8 @@ kurser = [
         "längd": "17,5 timmar video",
         "lärare": "Daniel Cremers",
         "länkkurs": "https://www.udemy.com/3d-modeling-in-modo/",
-        "länklärare": "https://www.udemy.com/user/ce4194f5-2ef9-4222-b5e2-22b0aa21999a/"
+        "länklärare": "https://www.udemy.com/user/ce4194f5-2ef9-4222-b5e2-22b0aa21999a/",
+        "avklarat": "100"
     },
     {
         "kurs": "Android N: From Beginner to Paid Professional",
@@ -128,7 +139,8 @@ kurser = [
         "längd": "25 timmar video",
         "lärare": "Mark Price",
         "länkkurs": "https://www.udemy.com/learn-android/",
-        "länklärare": "https://www.udemy.com/user/mark-price-2/"
+        "länklärare": "https://www.udemy.com/user/mark-price-2/",
+        "avklarat": "100"
     },
     {
         "kurs": "Learn the Swift Programming Language for Beginners",
@@ -137,7 +149,8 @@ kurser = [
         "längd": "4,5 timmar video",
         "lärare": "Jason Rybka",
         "länkkurs": "https://www.udemy.com/draft/503666/",
-        "länklärare": "https://www.udemy.com/user/jasonrybka/"
+        "länklärare": "https://www.udemy.com/user/jasonrybka/",
+        "avklarat": "100"
     },
     {
         "kurs": "iOS 10 & Swift 3: From Beginner to Paid Professional",
@@ -146,7 +159,8 @@ kurser = [
         "längd": "71 timmar video",
         "lärare": "Mark Price",
         "länkkurs": "https://www.udemy.com/devslopes-ios10/",
-        "länklärare": "https://www.udemy.com/user/mark-price-2/"
+        "länklärare": "https://www.udemy.com/user/mark-price-2/",
+        "avklarat": "100"
     },
 
 
@@ -281,7 +295,7 @@ kommandekurser =[
         "lärare": "Joe Parys",
         "länkkurs": "https://www.udemy.com/jquery-tutorial/",
         "länklärare": "https://www.udemy.com/user/josephparys/",
-        "avklarat": "20"
+        "avklarat": "48"
     },
     {
         "kurs": "Unity Game Development Build 2D & 3D Games",

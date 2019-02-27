@@ -3,7 +3,7 @@ body{
  }
 
 a{
-  color: #bfbfbf;
+  color: #414141;
 }
 footer{
   margin-top: auto!important;
@@ -13,13 +13,13 @@ footer{
 #bildPåMig{
   height: 100%;
   width: 100%;
-  border: 10px solid rgba(30, 146, 189, 0.53);
+  border: 10px solid rgba(29, 30, 25, 0.53);
 }
 
 .card{
   border-radius: 3px;
   box-sizing: border-box;
-  box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.50);
+
 }
 
 .card-header{
