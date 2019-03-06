@@ -13,7 +13,7 @@ footer{
 #bildPåMig{
   height: 100%;
   width: 100%;
-  border: 10px solid rgba(29, 30, 25, 0.53);
+  border: 10px solid rgb(70, 153, 238);
 }
 
 .card{
@@ -33,6 +33,7 @@ footer{
 .devIcons{
   font-size: 1.5em;
   padding: 0;
+  color: white;
 }
 .navbar{
   padding: 2px 24px;
