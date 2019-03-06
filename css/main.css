@@ -30,13 +30,9 @@ footer{
   border-radius: 2px;
 }
 
-/*.sticky {*/
-  /*position: fixed!important;*/
-  /*overflow: hidden;*/
-  /*top: 0px!important;*/
-  /*width: 100%;*/
-/*}*/
-
-/*.sticky + .content {*/
-  /*padding-top: 60px;*/
-/*}*/
+.devIcons{
+  font-size: 2em;
+}
+.navbar{
+  padding: 2px 8px;
+}

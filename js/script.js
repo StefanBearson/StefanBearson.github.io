@@ -1,7 +1,11 @@
-window.onload = function () {
+// window.onload = function () {
+//     printall();
+//
+// };
+function start(){
     printall();
+}
 
-};
 
 let dataindex;
 let dataindex2;
