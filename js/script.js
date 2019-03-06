@@ -27,7 +27,7 @@ function printall() {
     let html = "";
     for (let x = 0; data.length > x; x++) {
         html += '<div class="card bg-secondary m-2" style="width: 20rem;">';
-        html += '<div class="card-header" style="height: 70px;"><h6><a href="' + data[x].länkkurs + '">' + data[x].kurs + '</a> </h6></div>';
+        html += '<div class="card-header" style="height: 70px; background-color: #a8caa9"><h6><a href="' + data[x].länkkurs + '">' + data[x].kurs + '</a> </h6></div>';
         html += '<div class="card-body">';
         html += '<h5 class="card-title">' + data[x].plats + '</h5>';
         html += '<p class="card-text" style="color: #898989">' + data[x].längd + '</p>';
@@ -43,7 +43,7 @@ function printall() {
 
     for (let x = 0; data2.length > x; x++) {
         html += '<div class="card border-secondary m-2" style="width: 20rem;">';
-        html += '<div class="card-header" style="height: 70px;"><h6><a href="' + data2[x].länkkurs + '">' + data2[x].kurs + ' (ej klar)</a> </h6></div>';
+        html += '<div class="card-header" style="height: 70px;background-color: #caaeab"><h6><a href="' + data2[x].länkkurs + '">' + data2[x].kurs + ' (ej klar)</a> </h6></div>';
         html += '<div class="card-body">';
         html += '<h5 class="card-title">' + data2[x].plats + '</h5>';
         html += '<p class="card-text" style="color: #898989">' + data2[x].längd + '</p>';
@@ -76,7 +76,7 @@ function printdone() {
     let html = "";
     for (let x = 0; data.length > x; x++) {
         html += '<div class="card bg-secondary m-2 justify-content-center" style="width: 20rem;">';
-        html += '<div class="card-header" style="height: 70px;"><h6><a href="' + data[x].länkkurs + '">' + data[x].kurs + '</a> </h6></div>';
+        html += '<div class="card-header" style="height: 70px;background-color: #a8caa9""><h6><a href="' + data[x].länkkurs + '">' + data[x].kurs + '</a> </h6></div>';
         html += '<div class="card-body">';
         html += '<h5 class="card-title">' + data[x].plats + '</h5>';
         console.log(data[x].plats);
@@ -112,7 +112,7 @@ function printongoing() {
     for (let x = 0; data2.length > x; x++) {
 
         html += '<div class="card border-secondary m-2" style="width: 20rem;">';
-        html += '<div class="card-header" style="height: 70px;"><h6><a href="' + data2[x].länkkurs + '">' + data2[x].kurs + ' (ej klar)</a> </h6></div>';
+        html += '<div class="card-header" style="height: 70px;background-color: #caaeab"><h6><a href="' + data2[x].länkkurs + '">' + data2[x].kurs + ' (ej klar)</a> </h6></div>';
         html += '<div class="card-body">';
         html += '<h5 class="card-title">' + data2[x].plats + '</h5>';
         html += '<p class="card-text" style="color: #898989">' + data2[x].längd + '</p>';
