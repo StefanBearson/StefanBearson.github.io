@@ -177,6 +177,16 @@ kurser = [
         "länklärare": "https://www.udemy.com/user/mark-price-2/",
         "avklarat": "100",
         "id": "15"
+    },    {
+        "kurs": "The Complete JavaScript Course - Beginner to Professional",
+        "plats": "Udemy",
+        "beskrivning": "The only course you need to become a JavaScript developer - 45 JavaScript projects, ES6, JSON, AJAX & much more!",
+        "längd": "33,5 timmar video",
+        "lärare": "Laurence Svekis",
+        "länkkurs": "https://www.udemy.com/javascript-training/",
+        "länklärare": "https://www.udemy.com/user/lars51/",
+        "avklarat": "100",
+        "id": "26"
     },
 
 
@@ -292,17 +302,6 @@ kommandekurser = [
         "länklärare": "https://www.udemy.com/user/denispanjuta/",
         "avklarat": "56",
         "id": "25"
-    },
-    {
-        "kurs": "The Complete JavaScript Course - Beginner to Professional",
-        "plats": "Udemy",
-        "beskrivning": "The only course you need to become a JavaScript developer - 45 JavaScript projects, ES6, JSON, AJAX & much more!",
-        "längd": "33,5 timmar video",
-        "lärare": "Laurence Svekis",
-        "länkkurs": "https://www.udemy.com/javascript-training/",
-        "länklärare": "https://www.udemy.com/user/lars51/",
-        "avklarat": "40",
-        "id": "26"
     },
     {
         "kurs": "ASP NET Core 3 (ASP.NET 5),MVC,C#,Angular & EF Crash Course",
