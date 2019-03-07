@@ -1,4 +1,4 @@
-template =[
+template = [
     {
         "kurs": "",
         "plats": "",
@@ -7,7 +7,8 @@ template =[
         "lärare": "",
         "länkkurs": "",
         "länklärare": "",
-        "avklarat": "0"
+        "avklarat": "0",
+        "id": ""
     },
 ]
 
@@ -20,7 +21,8 @@ kurser = [
         "lärare": "Robert Tublen",
         "länkkurs": "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
         "länklärare": "https://www.linkedin.com/in/rtublen/",
-        "avklarat": "100"
+        "avklarat": "100",
+        "id": "1"
     },
     {
         "kurs": "ASP.NET (CORE) MVC",
@@ -30,7 +32,8 @@ kurser = [
         "lärare": "Robert Tublen",
         "länkkurs": "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
         "länklärare": "https://www.linkedin.com/in/rtublen/",
-        "avklarat": "100"
+        "avklarat": "100",
+        "id": "2"
     },
     {
         "kurs": "Datalagring med .NET",
@@ -40,7 +43,8 @@ kurser = [
         "lärare": "Robert Tublen",
         "länkkurs": "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
         "länklärare": "https://www.linkedin.com/in/rtublen/",
-        "avklarat": "100"
+        "avklarat": "100",
+        "id": "3"
     },
     {
         "kurs": "HTML & CSS",
@@ -50,7 +54,8 @@ kurser = [
         "lärare": "Björn Jönsson",
         "länkkurs": "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
         "länklärare": "https://www.linkedin.com/in/bj%C3%B6rn-j%C3%B6nsson-7a69501/",
-        "avklarat": "100"
+        "avklarat": "100",
+        "id": "4"
     },
     {
         "kurs": "JavaScript",
@@ -60,7 +65,8 @@ kurser = [
         "lärare": "Björn Jönsson",
         "länkkurs": "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
         "länklärare": "https://www.linkedin.com/in/bj%C3%B6rn-j%C3%B6nsson-7a69501/",
-        "avklarat": "100"
+        "avklarat": "100",
+        "id": "5"
     },
     {
         "kurs": "Total Frontend Website Creation HTML CSS JavaScript jQuery",
@@ -70,7 +76,8 @@ kurser = [
         "lärare": "Laurence Svekis",
         "länkkurs": "https://www.udemy.com/frontend-website-developer-html-css-javascript-jquery/",
         "länklärare": "https://www.udemy.com/user/lars51/",
-        "avklarat": "100"
+        "avklarat": "100",
+        "id": "6"
     },
     {
         "kurs": "C# Basics for Beginners: Learn C# Fundamentals by Coding",
@@ -80,7 +87,8 @@ kurser = [
         "lärare": "Mosh Hamedani",
         "länkkurs": "https://www.udemy.com/csharp-tutorial-for-beginners/",
         "länklärare": "https://www.udemy.com/user/moshfeghhamedani/",
-        "avklarat": "100"
+        "avklarat": "100",
+        "id": "7"
     },
     {
         "kurs": "C# Intermediate: Classes, Interfaces and OOP",
@@ -90,7 +98,8 @@ kurser = [
         "lärare": "Mosh Hamedani",
         "länkkurs": "Mosh Hamedani",
         "länklärare": "https://www.udemy.com/user/moshfeghhamedani/",
-        "avklarat": "100"
+        "avklarat": "100",
+        "id": "8"
     },
     {
         "kurs": "C# Advanced Topics: Prepare for Technical Interviews",
@@ -100,7 +109,8 @@ kurser = [
         "lärare": "Mosh Hamedani",
         "länkkurs": "Mosh Hamedani",
         "länklärare": "https://www.udemy.com/user/moshfeghhamedani/",
-        "avklarat": "100"
+        "avklarat": "100",
+        "id": "9"
     },
     {
         "kurs": "Java Programming Masterclass for Software Developers",
@@ -110,7 +120,8 @@ kurser = [
         "lärare": "Tim Buchalka",
         "länkkurs": "https://www.udemy.com/java-the-complete-java-developer-course/",
         "länklärare": "https://www.udemy.com/user/timbuchalka/",
-        "avklarat": "100"
+        "avklarat": "100",
+        "id": "10"
     },
     {
         "kurs": "JavaFx Tutorial For Beginners",
@@ -120,7 +131,8 @@ kurser = [
         "lärare": "Yogesh Patel",
         "länkkurs": "https://www.udemy.com/draft/665098/",
         "länklärare": "https://www.udemy.com/user/programmingknowledge/",
-        "avklarat": "100"
+        "avklarat": "100",
+        "id": "11"
     },
     {
         "kurs": "3d modelling - a Modo modeling guide",
@@ -130,7 +142,8 @@ kurser = [
         "lärare": "Daniel Cremers",
         "länkkurs": "https://www.udemy.com/3d-modeling-in-modo/",
         "länklärare": "https://www.udemy.com/user/ce4194f5-2ef9-4222-b5e2-22b0aa21999a/",
-        "avklarat": "100"
+        "avklarat": "100",
+        "id": "12"
     },
     {
         "kurs": "Android N: From Beginner to Paid Professional",
@@ -140,7 +153,8 @@ kurser = [
         "lärare": "Mark Price",
         "länkkurs": "https://www.udemy.com/learn-android/",
         "länklärare": "https://www.udemy.com/user/mark-price-2/",
-        "avklarat": "100"
+        "avklarat": "100",
+        "id": "13"
     },
     {
         "kurs": "Learn the Swift Programming Language for Beginners",
@@ -150,7 +164,8 @@ kurser = [
         "lärare": "Jason Rybka",
         "länkkurs": "https://www.udemy.com/draft/503666/",
         "länklärare": "https://www.udemy.com/user/jasonrybka/",
-        "avklarat": "100"
+        "avklarat": "100",
+        "id": "14"
     },
     {
         "kurs": "iOS 10 & Swift 3: From Beginner to Paid Professional",
@@ -160,13 +175,14 @@ kurser = [
         "lärare": "Mark Price",
         "länkkurs": "https://www.udemy.com/devslopes-ios10/",
         "länklärare": "https://www.udemy.com/user/mark-price-2/",
-        "avklarat": "100"
+        "avklarat": "100",
+        "id": "15"
     },
 
 
 ];
 
-kommandekurser =[
+kommandekurser = [
     {
         "kurs": "Agil systemutveckling med Scrum",
         "plats": "EC Utbildning AB Helsingborg",
@@ -175,7 +191,8 @@ kommandekurser =[
         "lärare": "Robert Tublen",
         "länkkurs": "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
         "länklärare": "https://www.linkedin.com/in/rtublen/",
-        "avklarat": "0"
+        "avklarat": "0",
+        "id": "16"
     },
     {
         "kurs": "ASP.NET Web API",
@@ -185,7 +202,8 @@ kommandekurser =[
         "lärare": "Robert Tublen",
         "länkkurs": "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
         "länklärare": "https://www.linkedin.com/in/rtublen/",
-        "avklarat": "0"
+        "avklarat": "0",
+        "id": "17"
     },
     {
         "kurs": "Code Patterns",
@@ -195,7 +213,8 @@ kommandekurser =[
         "lärare": "Robert Tublen",
         "länkkurs": "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
         "länklärare": "https://www.linkedin.com/in/rtublen/",
-        "avklarat": "0"
+        "avklarat": "0",
+        "id": "18"
     },
     {
         "kurs": "CMS",
@@ -205,7 +224,8 @@ kommandekurser =[
         "lärare": "Robert Tublen",
         "länkkurs": "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
         "länklärare": "https://www.linkedin.com/in/rtublen/",
-        "avklarat": "0"
+        "avklarat": "0",
+        "id": "19"
     },
     {
         "kurs": "Examensarbete",
@@ -215,7 +235,8 @@ kommandekurser =[
         "lärare": "Robert Tublen",
         "länkkurs": "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
         "länklärare": "https://www.linkedin.com/in/rtublen/",
-        "avklarat": "0"
+        "avklarat": "0",
+        "id": "20"
     },
     {
         "kurs": "LIA 1 Applikationsutveckling",
@@ -225,7 +246,8 @@ kommandekurser =[
         "lärare": "Robert Tublen",
         "länkkurs": "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
         "länklärare": "https://www.linkedin.com/in/rtublen/",
-        "avklarat": "0"
+        "avklarat": "0",
+        "id": "21"
     },
     {
         "kurs": "LIA 2: Mjukvaruutveckling",
@@ -235,7 +257,8 @@ kommandekurser =[
         "lärare": "Robert Tublen",
         "länkkurs": "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
         "länklärare": "https://www.linkedin.com/in/rtublen/",
-        "avklarat": "0"
+        "avklarat": "0",
+        "id": "22"
     },
     {
         "kurs": "Mjukvaruanalys",
@@ -245,7 +268,8 @@ kommandekurser =[
         "lärare": "Robert Tublen",
         "länkkurs": "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
         "länklärare": "https://www.linkedin.com/in/rtublen/",
-        "avklarat": "0"
+        "avklarat": "0",
+        "id": "23"
     },
     {
         "kurs": "Webbsäkerhet",
@@ -255,7 +279,8 @@ kommandekurser =[
         "lärare": "Robert Tublen",
         "länkkurs": "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
         "länklärare": "https://www.linkedin.com/in/rtublen/",
-        "avklarat": "0"
+        "avklarat": "0",
+        "id": "24"
     },
     {
         "kurs": "Complete C# Masterclass",
@@ -265,7 +290,8 @@ kommandekurser =[
         "lärare": "Denis Panjuta",
         "länkkurs": "https://www.udemy.com/complete-csharp-masterclass/",
         "länklärare": "https://www.udemy.com/user/denispanjuta/",
-        "avklarat": "56"
+        "avklarat": "56",
+        "id": "25"
     },
     {
         "kurs": "The Complete JavaScript Course - Beginner to Professional",
@@ -275,7 +301,8 @@ kommandekurser =[
         "lärare": "Laurence Svekis",
         "länkkurs": "https://www.udemy.com/javascript-training/",
         "länklärare": "https://www.udemy.com/user/lars51/",
-        "avklarat": "40"
+        "avklarat": "40",
+        "id": "26"
     },
     {
         "kurs": "ASP NET Core 3 (ASP.NET 5),MVC,C#,Angular & EF Crash Course",
@@ -285,7 +312,8 @@ kommandekurser =[
         "lärare": "",
         "länkkurs": "https://www.udemy.com/aspnet-core-aspnet-5mvc-6cweb-api-ef-crash-course/",
         "länklärare": "",
-        "avklarat": "49"
+        "avklarat": "49",
+        "id": "27"
     },
     {
         "kurs": "The Complete jQuery Course: From Beginner To Advanced!",
@@ -295,7 +323,8 @@ kommandekurser =[
         "lärare": "Joe Parys",
         "länkkurs": "https://www.udemy.com/jquery-tutorial/",
         "länklärare": "https://www.udemy.com/user/josephparys/",
-        "avklarat": "48"
+        "avklarat": "48",
+        "id": "28"
     },
     {
         "kurs": "Unity Game Development Build 2D & 3D Games",
@@ -305,7 +334,8 @@ kommandekurser =[
         "lärare": "Mark Price",
         "länkkurs": "https://www.udemy.com/devslopes-unity3d/",
         "länklärare": "https://www.udemy.com/user/mark-price-2/",
-        "avklarat": "35"
+        "avklarat": "35",
+        "id": "29"
     },
     {
         "kurs": "Entity Framework in Depth: The Complete Guide",
@@ -315,7 +345,8 @@ kommandekurser =[
         "lärare": "Mosh Hamedani",
         "länkkurs": "https://www.udemy.com/entity-framework-tutorial/",
         "länklärare": "https://www.udemy.com/user/moshfeghhamedani/",
-        "avklarat": "30"
+        "avklarat": "30",
+        "id": "30"
     },
     {
         "kurs": "C# Developers: Learn the Art of Writing Clean Code",
@@ -325,6 +356,7 @@ kommandekurser =[
         "lärare": "Mosh Hamedani",
         "länkkurs": "https://www.udemy.com/clean-code/",
         "länklärare": "https://www.udemy.com/user/moshfeghhamedani/",
-        "avklarat": "75"
+        "avklarat": "75",
+        "id": "31"
     },
 ]
