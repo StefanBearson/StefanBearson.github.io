@@ -35,7 +35,7 @@ function printall() {
         html += '</div>';
         html += '<div class="card-footer text-right"><a href="' + data[x].länklärare + '">' + "Lärare: " + data[x].lärare + '</a>';
         html += '</div>';
-        html += '<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal' + dataindex + '">Mer info</button>';
+        html += '<button type="button" class="btn btn-primary merinfo" data-toggle="modal" data-target="#exampleModal' + dataindex + '">Mer info</button>';
         html += '</div>';
         html += '<div class="modal fade" id="exampleModal' + dataindex + '" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"><div class="modal-dialog" role="document"><div class="modal-content"><img src="images/' + data[dataindex].id + '.jpg" style="width: 100%"><div class="modal-header"><h5 class="modal-title" id="exampleModalLabel">' + data[dataindex].kurs + '</h5><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div><div class="modal-body">' + data[dataindex].beskrivning + '</div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button></div></div></div></div>';
         dataindex++
@@ -43,7 +43,7 @@ function printall() {
 
     for (let x = 0; data2.length > x; x++) {
         html += '<div class="card border-secondary m-2" style="width: 20rem;">';
-        html += '<div class="card-header" style="height: 70px;background-color: #caaeab"><h6><a href="' + data2[x].länkkurs + '">' + data2[x].kurs + ' (ej klar)</a> </h6></div>';
+        html += '<div class="card-header" style="height: 70px;background-color: rgba(168,202,169,0.33)"><h6><a href="' + data2[x].länkkurs + '">' + data2[x].kurs + ' (ej klar)</a> </h6></div>';
         html += '<div class="card-body">';
         html += '<h5 class="card-title">' + data2[x].plats + '</h5>';
         html += '<p class="card-text" style="color: #898989">' + data2[x].längd + '</p>';
@@ -57,7 +57,7 @@ function printall() {
         html += '</div>';
         html += '<div class="card-footer text-right"><a href="' + data2[x].länklärare + '">' + "Lärare: " + data2[x].lärare + '</a>';
         html += '</div>';
-        html += '<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalb' + dataindex2 + '">Mer info</button>';
+        html += '<button type="button" class="btn btn-primary merinfo" data-toggle="modal" data-target="#exampleModalb' + dataindex2 + '">Mer info</button>';
         html += '</div>';
         html += '<div class="modal fade" id="exampleModalb' + dataindex2 + '" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="exampleModalLabel">' + data2[dataindex2].kurs + '</h5><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div><div class="modal-body">' + data2[dataindex2].beskrivning + '</div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button></div></div></div></div>';
 
@@ -86,7 +86,7 @@ function printdone() {
         html += '</div>';
         html += '<div class="card-footer text-right"><a href="' + data[x].länklärare + '">' + "Lärare: " + data[x].lärare + '</a>';
         html += '</div>';
-        html += '<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal' + dataindex + '">Mer info</button>';
+        html += '<button type="button" class="btn btn-primary merinfo" data-toggle="modal" data-target="#exampleModal' + dataindex + '">Mer info</button>';
         html += '</div>';
         html += '<div class="modal fade" id="exampleModal' + dataindex + '" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"><div class="modal-dialog" role="document"><div class="modal-content"><img src="images/' + data[dataindex].id + '.jpg" style="width: 100%"><div class="modal-header"><h5 class="modal-title" id="exampleModalLabel">' + data[dataindex].kurs + '</h5><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div><div class="modal-body">' + data[dataindex].beskrivning + '</div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button></div></div></div></div>';
         dataindex++
@@ -112,7 +112,7 @@ function printongoing() {
     for (let x = 0; data2.length > x; x++) {
 
         html += '<div class="card border-secondary m-2" style="width: 20rem;">';
-        html += '<div class="card-header" style="height: 70px;background-color: #caaeab"><h6><a href="' + data2[x].länkkurs + '">' + data2[x].kurs + ' (ej klar)</a> </h6></div>';
+        html += '<div class="card-header" style="height: 70px;background-color: rgba(168,202,169,0.33)"><h6><a href="' + data2[x].länkkurs + '">' + data2[x].kurs + ' (ej klar)</a> </h6></div>';
         html += '<div class="card-body">';
         html += '<h5 class="card-title">' + data2[x].plats + '</h5>';
         html += '<p class="card-text" style="color: #898989">' + data2[x].längd + '</p>';
@@ -125,7 +125,7 @@ function printongoing() {
         html += '</div>';
         html += '<div class="card-footer text-right"><a href="' + data2[x].länklärare + '">' + "Lärare: " + data2[x].lärare + '</a>';
         html += '</div>';
-        html += '<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalb' + dataindex2 + '">Mer info</button>';
+        html += '<button type="button" class="btn btn-primary merinfo" data-toggle="modal" data-target="#exampleModalb' + dataindex2 + '">Mer info</button>';
         html += '</div>';
         html += '<div class="modal fade" id="exampleModalb' + dataindex2 + '" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="exampleModalLabel">' + data2[dataindex2].kurs + '</h5><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div><div class="modal-body">' + data2[dataindex2].beskrivning + '</div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button></div></div></div></div>';
 
