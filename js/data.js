@@ -203,6 +203,18 @@ kurser = [
     länklärare: "https://www.udemy.com/user/lars51/",
     avklarat: "100",
     id: "26"
+  },
+  {
+    kurs: "C# Developers: Learn the Art of Writing Clean Code",
+    plats: "Udemy",
+    beskrivning:
+        "Man lär sig tekniker hur man skriver snyggare, bättre kod i C#.",
+    längd: "5.5 timmar video",
+    lärare: "Mosh Hamedani",
+    länkkurs: "https://www.udemy.com/clean-code/",
+    länklärare: "https://www.udemy.com/user/moshfeghhamedani/",
+    avklarat: "100",
+    id: "31"
   }
 ];
 
@@ -373,17 +385,5 @@ kommandekurser = [
     länklärare: "https://www.udemy.com/user/moshfeghhamedani/",
     avklarat: "30",
     id: "30"
-  },
-  {
-    kurs: "C# Developers: Learn the Art of Writing Clean Code",
-    plats: "Udemy",
-    beskrivning:
-      "Man lär sig tekniker hur man skriver snyggare, bättre kod i C#.",
-    längd: "5.5 timmar video",
-    lärare: "Mosh Hamedani",
-    länkkurs: "https://www.udemy.com/clean-code/",
-    länklärare: "https://www.udemy.com/user/moshfeghhamedani/",
-    avklarat: "75",
-    id: "31"
   }
 ];
