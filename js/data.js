@@ -336,7 +336,7 @@ kommandekurser = [
     lärare: "Denis Panjuta",
     länkkurs: "https://www.udemy.com/complete-csharp-masterclass/",
     länklärare: "https://www.udemy.com/user/denispanjuta/",
-    avklarat: "56",
+    avklarat: "59",
     id: "25"
   },
   {
@@ -385,5 +385,49 @@ kommandekurser = [
     länklärare: "https://www.udemy.com/user/moshfeghhamedani/",
     avklarat: "30",
     id: "30"
+  },
+  {
+    kurs: "React - The Complete Guide",
+    plats: "udemy",
+    beskrivning: "En kurs i react, inklusive Hooks, React Router, Redux",
+    längd: "40.5 timmar video",
+    lärare: "Maximilian Schwarzmüller",
+    länkkurs: "https://www.udemy.com/react-the-complete-guide-incl-redux/",
+    länklärare: "https://www.udemy.com/user/academind/",
+    avklarat: "10",
+    id: "31"
+  },
+  {
+    kurs: "Complete Blender Creator",
+    plats: "udemy",
+    beskrivning: "En kurs i Blender, ett gratis men otroligt kraftfullt 3D program",
+    längd: "62.5 timmar video",
+    lärare: "Ben Tristem",
+    länkkurs: "https://www.udemy.com/blendertutorial/",
+    länklärare: "https://www.udemy.com/blendertutorial/#instructor-1",
+    avklarat: "6",
+    id: "32"
+  },
+  {
+    kurs: "Learn Pyhton Programming, Masterclass",
+    plats: "udemy",
+    beskrivning: "En kurs i Pyhton, från nybörjare till avancerad nivå",
+    längd: "42 timmar video",
+    lärare: "Ben Tristem",
+    länkkurs: "https://www.udemy.com/python-the-complete-python-developer-course/",
+    länklärare: "https://www.udemy.com/python-the-complete-python-developer-course/#instructor-1",
+    avklarat: "15",
+    id: "33"
+  },
+  {
+    kurs: "DesignPatterns in C# and .NET",
+    plats: "udemy",
+    beskrivning: "En kurs Design Patterns, där de tar upp hur man bör göra vissa funktioner osv",
+    längd: "13 timmar video",
+    lärare: "Dmitri Nesteruk",
+    länkkurs: "https://www.udemy.com/design-patterns-csharp-dotnet/",
+    länklärare: "https://www.udemy.com/design-patterns-csharp-dotnet/#instructor-1",
+    avklarat: "13",
+    id: "33"
   }
 ];
