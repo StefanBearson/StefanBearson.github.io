@@ -215,6 +215,17 @@ kurser = [
     länklärare: "https://www.udemy.com/user/moshfeghhamedani/",
     avklarat: "100",
     id: "31"
+  },
+  {
+    kurs: "Full Stack Development with React and ASP.NET Core 2",
+    plats: "udemy",
+    beskrivning: "En snabb kurs på endast 3 timmar, tar upp hur man bygger upp en React frontend med en ASP.NET (WEBAPI Core backend, något förlegade teckniker används inom frontenden, men skulle göra ett react projekt i skolan och behövde snabbt komma igång med react",
+    längd: "3 timmar video",
+    lärare: "_ _",
+    länkkurs: "https://www.udemy.com/full-stack-development-with-react-and-aspnet-core-2/",
+    länklärare: "https://www.udemy.com/full-stack-development-with-react-and-aspnet-core-2/#instructor-1",
+    avklarat: "100",
+    id: "32"
   }
 ];
 
