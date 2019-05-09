@@ -433,12 +433,23 @@ kommandekurser = [
   {
     kurs: "DesignPatterns in C# and .NET",
     plats: "udemy",
-    beskrivning: "En kurs Design Patterns, där de tar upp hur man bör göra vissa funktioner osv",
+    beskrivning: "En kurs om Design Patterns, där de tar upp hur man bör göra vissa funktioner osv",
     längd: "13 timmar video",
     lärare: "Dmitri Nesteruk",
     länkkurs: "https://www.udemy.com/design-patterns-csharp-dotnet/",
     länklärare: "https://www.udemy.com/design-patterns-csharp-dotnet/#instructor-1",
     avklarat: "13",
-    id: "33"
+    id: "34"
+  },
+  {
+    kurs: "Unit Testing for C# Developers",
+    plats: "udemy",
+    beskrivning: "En kurs hur man testar sin kod automatiskt via bla NUnit m.m",
+    längd: "6 timmar video",
+    lärare: "Mosh Hamedani",
+    länkkurs: "https://www.udemy.com/unit-testing-csharp/",
+    länklärare: "https://www.udemy.com/unit-testing-csharp/#instructor-1",
+    avklarat: "33",
+    id: "34"
   }
 ];
