@@ -438,7 +438,7 @@ kommandekurser = [
     lärare: "Dmitri Nesteruk",
     länkkurs: "https://www.udemy.com/design-patterns-csharp-dotnet/",
     länklärare: "https://www.udemy.com/design-patterns-csharp-dotnet/#instructor-1",
-    avklarat: "13",
+    avklarat: "18",
     id: "34"
   },
   {
