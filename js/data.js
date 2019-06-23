@@ -226,6 +226,17 @@ kurser = [
     länklärare: "https://www.udemy.com/full-stack-development-with-react-and-aspnet-core-2/#instructor-1",
     avklarat: "100",
     id: "32"
+  },
+  {
+    kurs: "Understanding TypeScript",
+    plats: "udemy",
+    beskrivning: "",
+    längd: "7.5 timmar video",
+    lärare: "Maximilian Schwarzmüller",
+    länkkurs: "https://www.udemy.com/course/understanding-typescript/",
+    länklärare: "https://www.udemy.com/course/understanding-typescript/#instructor-1",
+    avklarat: "100",
+    id: "35"
   }
 ];
 
