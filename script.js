@@ -16,9 +16,13 @@ const printlist = () => {
         data[x].avklarat +
         "%);'><h5>" +
         data[x].kurs +
-        "</h5><p class='time'>" +
+        "</h5>" +
+        "<p class='info'>" +
+        data[x].beskrivning +
+        "</p>" +
+        "<p class='time'>" +
         data[x].längd +
-        " timmars video</p>" +
+        "</p>" +
         "</div>";
 
       html += "</a>";

@@ -378,7 +378,7 @@ kommandekurser = [
     lärare: "Robert Tublen",
     länkkurs: "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
     länklärare: "https://www.linkedin.com/in/rtublen/",
-    avklarat: "0",
+    avklarat: "100",
     id: "24",
     betyg: "VG"
   },
@@ -499,6 +499,81 @@ kommandekurser = [
     länkkurs: "https://www.udemy.com/unit-testing-csharp/",
     länklärare: "https://www.udemy.com/unit-testing-csharp/#instructor-1",
     avklarat: "33",
-    id: "34"
+    id: "35"
+  },
+  {
+    kurs: "Typescript: The Complete Developer's Guide [2020]",
+    plats: "udemy",
+    beskrivning: "Typescript",
+    längd: "25 timmar video",
+    lärare: "Stephen Grider",
+    länkkurs:
+      "https://www.udemy.com/course/typescript-the-complete-developers-guide/",
+    länklärare:
+      "https://www.udemy.com/course/typescript-the-complete-developers-guide/#instructor-1",
+    avklarat: "6",
+    id: "36"
+  },
+  {
+    kurs: "C# Automapper: Code Smart",
+    plats: "udemy",
+    beskrivning: "Automapper i C# projekt",
+    längd: "1 timmar video",
+    lärare: "Stephen Grider",
+    länkkurs: "https://www.udemy.com/course/c-automapper-code-smart/",
+    länklärare:
+      "https://www.udemy.com/course/c-automapper-code-smart/#instructor-1",
+    avklarat: "70",
+    id: "37"
+  },
+  {
+    kurs: "React, NodeJS, Express & MongoDB - The MERN Fullstack Guide",
+    plats: "udemy",
+    beskrivning: "MERN Backend till Frontend i JS",
+    längd: "18.5 timmar video",
+    lärare: "Stephen Grider",
+    länkkurs:
+      "https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/",
+    länklärare:
+      "https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/#instructor-1",
+    avklarat: "71",
+    id: "38"
+  },
+  {
+    kurs: "JavaScript - The Complete Guide 2020 (Beginner + Advanced)",
+    plats: "udemy",
+    beskrivning: "En stor och ingående Javascriptkurs",
+    längd: "52 timmar video",
+    lärare: "Maximilian Schwarzmuller",
+    länkkurs:
+      "https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced/",
+    länklärare:
+      "https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced/#instructor-1",
+    avklarat: "23",
+    id: "39"
+  },
+  {
+    kurs: "NodeJS - The Complete Guide (incl. MVC, REST APIs, GraphQL)",
+    plats: "udemy",
+    beskrivning: "Automapper i C# projekt",
+    längd: "36 timmar video",
+    lärare: "Maximilian Schwarzmuller",
+    länkkurs: "https://www.udemy.com/course/nodejs-the-complete-guide/",
+    länklärare:
+      "https://www.udemy.com/course/nodejs-the-complete-guide/#instructor-1",
+    avklarat: "17",
+    id: "40"
+  },
+  {
+    kurs: "NodeJS - The Complete Guide (incl. MVC, REST APIs, GraphQL)",
+    plats: "udemy",
+    beskrivning: "Automapper i C# projekt",
+    längd: "7.5 timmar video",
+    lärare: "Mosh Hamedani",
+    länkkurs: "https://www.udemy.com/course/xamarin-forms-course/",
+    länklärare:
+      "https://www.udemy.com/course/xamarin-forms-course/#instructor-1",
+    avklarat: "68",
+    id: "41"
   }
 ];
