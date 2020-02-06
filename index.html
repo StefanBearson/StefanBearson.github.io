@@ -105,14 +105,30 @@
         font-size: 4em;
         text-align: center;
       }
-
+      @media only screen and (max-device-width: 1024px) {
+        div {
+          padding: 4px!important;
+        }
+        h5{
+          padding:0px 4px 0px 4px;
+          margin: 0;
+        }
+        p{
+          padding:0 4px 0 4px;
+          margin: 0;
+        }
+        .bgimg-1{
+          padding: 0;
+          margin: 0;
+        }
+      }
       /* Turn off parallax scrolling for tablets and phones */
-      @media only screen and (max-device-width: 1px) {
+      /* @media only screen and (max-device-width: 1024px) {
         .bgimg-1,
         .bgimg-2,
         .bgimg-3 {
           background-attachment: scroll;
-        }
+        } */
       }
     </style>
   </head>
