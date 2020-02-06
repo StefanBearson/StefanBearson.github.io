@@ -49,7 +49,7 @@ const printEmplyyment = () => {
     html += "<div class='course'>";
     html += "<h5>" + tidigareJobb[x].namn + "</h5>";
     html +=
-      "<p>Anstaälld: " +
+      "<p>Anställd: " +
       tidigareJobb[x].start +
       " till " +
       tidigareJobb[x].slut +
