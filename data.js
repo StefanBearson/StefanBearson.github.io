@@ -12,6 +12,21 @@ template = [
   }
 ];
 
+tidigareJobb = [
+  {
+    namn: "Skogs Tryckeri",
+    possition: "Tryckeribiträde",
+    start: "2000-00-00",
+    slut: "2000-00-00"
+  },
+  {
+    namn: "Falck, G4S, Avarn",
+    possition: "Väktare",
+    start: "2000-00-00",
+    slut: "2000-00-00"
+  }
+];
+
 kurser = [
   {
     kurs: "C#",
@@ -23,7 +38,8 @@ kurser = [
     länkkurs: "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
     länklärare: "https://www.linkedin.com/in/rtublen/",
     avklarat: "100",
-    id: "1"
+    id: "1",
+    betyg: "VG"
   },
   {
     kurs: "ASP.NET (CORE) MVC",
@@ -35,7 +51,8 @@ kurser = [
     länkkurs: "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
     länklärare: "https://www.linkedin.com/in/rtublen/",
     avklarat: "100",
-    id: "2"
+    id: "2",
+    betyg: "VG"
   },
   {
     kurs: "Datalagring med .NET",
@@ -47,7 +64,8 @@ kurser = [
     länkkurs: "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
     länklärare: "https://www.linkedin.com/in/rtublen/",
     avklarat: "100",
-    id: "3"
+    id: "3",
+    betyg: "VG"
   },
   {
     kurs: "HTML & CSS",
@@ -59,7 +77,8 @@ kurser = [
     länkkurs: "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
     länklärare: "https://www.linkedin.com/in/bj%C3%B6rn-j%C3%B6nsson-7a69501/",
     avklarat: "100",
-    id: "4"
+    id: "4",
+    betyg: "G"
   },
   {
     kurs: "JavaScript",
@@ -71,7 +90,8 @@ kurser = [
     länkkurs: "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
     länklärare: "https://www.linkedin.com/in/bj%C3%B6rn-j%C3%B6nsson-7a69501/",
     avklarat: "100",
-    id: "5"
+    id: "5",
+    betyg: "VG"
   },
   {
     kurs: "Total Frontend Website Creation HTML CSS JavaScript jQuery",
@@ -208,7 +228,7 @@ kurser = [
     kurs: "C# Developers: Learn the Art of Writing Clean Code",
     plats: "Udemy",
     beskrivning:
-        "Man lär sig tekniker hur man skriver snyggare, bättre kod i C#.",
+      "Man lär sig tekniker hur man skriver snyggare, bättre kod i C#.",
     längd: "5.5 timmar video",
     lärare: "Mosh Hamedani",
     länkkurs: "https://www.udemy.com/clean-code/",
@@ -219,11 +239,14 @@ kurser = [
   {
     kurs: "Full Stack Development with React and ASP.NET Core 2",
     plats: "udemy",
-    beskrivning: "En snabb kurs på endast 3 timmar, tar upp hur man bygger upp en React frontend med en ASP.NET (WEBAPI Core backend, något förlegade teckniker används inom frontenden, men skulle göra ett react projekt i skolan och behövde snabbt komma igång med react",
+    beskrivning:
+      "En snabb kurs på endast 3 timmar, tar upp hur man bygger upp en React frontend med en ASP.NET (WEBAPI Core backend, något förlegade teckniker används inom frontenden, men skulle göra ett react projekt i skolan och behövde snabbt komma igång med react",
     längd: "3 timmar video",
     lärare: "_ _",
-    länkkurs: "https://www.udemy.com/full-stack-development-with-react-and-aspnet-core-2/",
-    länklärare: "https://www.udemy.com/full-stack-development-with-react-and-aspnet-core-2/#instructor-1",
+    länkkurs:
+      "https://www.udemy.com/full-stack-development-with-react-and-aspnet-core-2/",
+    länklärare:
+      "https://www.udemy.com/full-stack-development-with-react-and-aspnet-core-2/#instructor-1",
     avklarat: "100",
     id: "32"
   },
@@ -234,7 +257,8 @@ kurser = [
     längd: "7.5 timmar video",
     lärare: "Maximilian Schwarzmüller",
     länkkurs: "https://www.udemy.com/course/understanding-typescript/",
-    länklärare: "https://www.udemy.com/course/understanding-typescript/#instructor-1",
+    länklärare:
+      "https://www.udemy.com/course/understanding-typescript/#instructor-1",
     avklarat: "100",
     id: "35"
   }
@@ -251,7 +275,8 @@ kommandekurser = [
     länkkurs: "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
     länklärare: "https://www.linkedin.com/in/rtublen/",
     avklarat: "0",
-    id: "16"
+    id: "16",
+    betyg: "VG"
   },
   {
     kurs: "ASP.NET Web API",
@@ -263,10 +288,11 @@ kommandekurser = [
     länkkurs: "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
     länklärare: "https://www.linkedin.com/in/rtublen/",
     avklarat: "0",
-    id: "17"
+    id: "17",
+    betyg: "VG"
   },
   {
-    kurs: "Code Patterns",
+    kurs: "React",
     plats: "EC Utbildning AB Helsingborg",
     beskrivning:
       "Kursen syftar till att lära den studerande sig att sätta sig in i rollen som arkitekt för att skapa kod med en hållbar struktur även i större projekt. Detta kräver disciplin och struktur på en professionell nivå.",
@@ -274,8 +300,9 @@ kommandekurser = [
     lärare: "Robert Tublen",
     länkkurs: "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
     länklärare: "https://www.linkedin.com/in/rtublen/",
-    avklarat: "0",
-    id: "18"
+    avklarat: "100",
+    id: "18",
+    betyg: "VG"
   },
   {
     kurs: "CMS",
@@ -287,7 +314,8 @@ kommandekurser = [
     länkkurs: "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
     länklärare: "https://www.linkedin.com/in/rtublen/",
     avklarat: "0",
-    id: "19"
+    id: "19",
+    betyg: "VG"
   },
   {
     kurs: "Examensarbete",
@@ -299,7 +327,8 @@ kommandekurser = [
     länkkurs: "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
     länklärare: "https://www.linkedin.com/in/rtublen/",
     avklarat: "0",
-    id: "20"
+    id: "20",
+    betyg: "Ej Avslutad"
   },
   {
     kurs: "LIA 1 Applikationsutveckling",
@@ -311,7 +340,8 @@ kommandekurser = [
     länkkurs: "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
     länklärare: "https://www.linkedin.com/in/rtublen/",
     avklarat: "0",
-    id: "21"
+    id: "21",
+    betyg: "VG"
   },
   {
     kurs: "LIA 2: Mjukvaruutveckling",
@@ -323,7 +353,8 @@ kommandekurser = [
     länkkurs: "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
     länklärare: "https://www.linkedin.com/in/rtublen/",
     avklarat: "0",
-    id: "22"
+    id: "22",
+    betyg: "Ej avslutad"
   },
   {
     kurs: "Mjukvaruanalys",
@@ -335,10 +366,11 @@ kommandekurser = [
     länkkurs: "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
     länklärare: "https://www.linkedin.com/in/rtublen/",
     avklarat: "0",
-    id: "23"
+    id: "23",
+    betyg: "VG"
   },
   {
-    kurs: "Webbsäkerhet",
+    kurs: "Systemintegration",
     plats: "EC Utbildning AB Helsingborg",
     beskrivning:
       "Kursen syftar till att ge specialiserad kunskap inom säkerhet relaterad till webbapplikationer, vilka de vanligaste hoten är och hur man kan skydda sig från dessa.",
@@ -347,7 +379,8 @@ kommandekurser = [
     länkkurs: "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
     länklärare: "https://www.linkedin.com/in/rtublen/",
     avklarat: "0",
-    id: "24"
+    id: "24",
+    betyg: "VG"
   },
   {
     kurs: "Complete C# Masterclass",
@@ -422,7 +455,8 @@ kommandekurser = [
   {
     kurs: "Complete Blender Creator",
     plats: "udemy",
-    beskrivning: "En kurs i Blender, ett gratis men otroligt kraftfullt 3D program",
+    beskrivning:
+      "En kurs i Blender, ett gratis men otroligt kraftfullt 3D program",
     längd: "62.5 timmar video",
     lärare: "Ben Tristem",
     länkkurs: "https://www.udemy.com/blendertutorial/",
@@ -436,19 +470,23 @@ kommandekurser = [
     beskrivning: "En kurs i Pyhton, från nybörjare till avancerad nivå",
     längd: "42 timmar video",
     lärare: "Ben Tristem",
-    länkkurs: "https://www.udemy.com/python-the-complete-python-developer-course/",
-    länklärare: "https://www.udemy.com/python-the-complete-python-developer-course/#instructor-1",
+    länkkurs:
+      "https://www.udemy.com/python-the-complete-python-developer-course/",
+    länklärare:
+      "https://www.udemy.com/python-the-complete-python-developer-course/#instructor-1",
     avklarat: "15",
     id: "33"
   },
   {
     kurs: "DesignPatterns in C# and .NET",
     plats: "udemy",
-    beskrivning: "En kurs om Design Patterns, där de tar upp hur man bör göra vissa funktioner osv",
+    beskrivning:
+      "En kurs om Design Patterns, där de tar upp hur man bör göra vissa funktioner osv",
     längd: "13 timmar video",
     lärare: "Dmitri Nesteruk",
     länkkurs: "https://www.udemy.com/design-patterns-csharp-dotnet/",
-    länklärare: "https://www.udemy.com/design-patterns-csharp-dotnet/#instructor-1",
+    länklärare:
+      "https://www.udemy.com/design-patterns-csharp-dotnet/#instructor-1",
     avklarat: "18",
     id: "34"
   },

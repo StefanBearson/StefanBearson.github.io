@@ -1,147 +1,188 @@
 <!DOCTYPE html>
-<html lang="en" class="h-100">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <title>Main</title>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <link rel="stylesheet" href="css/bootstrapmateria.css" />
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/bootstrap.bundle.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/data.js"></script>
-    <link rel="stylesheet" href="css/main.css" />
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-      crossorigin="anonymous"
+      type="text/css"
+      href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css"
     />
-    <link rel="stylesheet" href="css/bootstrap-grid.css" />
-    <link rel="stylesheet" href="css/bootstrap-reboot.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
-    />
+    <script src="data.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+        width: 100%;
+        font: 400 15px/1.8 "Lato", sans-serif;
+        color: #777;
+      }
+      .texteffect {
+        /* color: transparent; */
+        /* background: #666666; */
+        /* -webkit-background-clip: text; */
+        /* -moz-background-clip: text; */
+        background-clip: text;
+        text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
+      }
+
+      .bgimg-1,
+      .bgimg-2,
+      .bgimg-3 {
+        position: relative;
+        opacity: 0.8;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .bgimg-1 {
+        background-image: url("code.jpg");
+        min-height: 100%;
+        width: 100%;
+      }
+
+      .bgimg-2 {
+        background-image: url("jag.jpg");
+        min-height: 400px;
+        width: 100%;
+      }
+
+      .bgimg-3 {
+        background-image: url("MinBak.jpg");
+        min-height: 400px;
+        width: 100%;
+      }
+      .course {
+        background-color: #ddd;
+        color: black;
+        text-decoration: none;
+        padding-left: 8px;
+        padding-right: 8px;
+        margin: 3px;
+      }
+      .nomargins {
+        margin: 0px;
+      }
+      .lighttext {
+        color: #2f2f2f;
+        /* background: #e8e8e8; */
+        text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1),
+          1px 1px 1px rgba(255, 255, 255, 1);
+      }
+      .time {
+        text-align: right;
+      }
+
+      a {
+        text-decoration: none;
+        padding: 0px;
+        margin: 0px;
+      }
+      .caption {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: #000;
+      }
+
+      .caption span.border {
+        background-color: #111;
+        color: #fff;
+        padding: 18px;
+        font-size: 25px;
+        letter-spacing: 10px;
+      }
+
+      h3 {
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font: 20px "Lato", sans-serif;
+        color: #fff;
+        font-size: 4em;
+        text-align: center;
+      }
+
+      /* Turn off parallax scrolling for tablets and phones */
+      @media only screen and (max-device-width: 100px) {
+        .bgimg-1,
+        .bgimg-2,
+        .bgimg-3 {
+          background-attachment: scroll;
+        }
+      }
+    </style>
   </head>
-
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-      <a class="navbar-brand" href="index.html">Stefan Björnson</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarColor01"
-        aria-controls="navbarColor01"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarColor01">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html"
-              ><i class="fas fa-home"></i> Hem
-              <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="kurser.html"
-              ><i class="fas fa-university"></i> Kurser/Utbildning</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html"
-              ><i class="fas fa-portrait"></i> Om mig!</a
-            >
-          </li>
-        </ul>
+  <body>
+    <div class="bgimg-1">
+      <div class="caption">
+        <span class="border texteffect">Stefan Björnson</span>
       </div>
-      <span class="nav-link devIcons">
-        <i class="devicon-csharp-plain"></i>
-        <i class="devicon-javascript-plain"></i>
-        <i class="devicon-html5-plain-wordmark"></i>
-        <i class="devicon-css3-plain-wordmark"></i>
-        <i class="devicon-sass-original"></i>
-        <i class="devicon-dot-net-plain-wordmark"></i>
-        <i class="devicon-git-plain-wordmark"></i>
-        <i class="devicon-jquery-plain-wordmark"></i>
-        <i class="devicon-github-plain-wordmark"></i>
-        <i
-          ><div
-            class="text-center"
-            style="width: 20px; display: inline-block; font-weight: bolder; color: white; font-size: 0.6em"
-          >
-            <div
-              style="width: 20px; display: inline; font-weight: bolder; color: white; font-size: 0.6em"
-            >
-              MS
-            </div>
-            <div
-              style="width: 20px; display: block; font-weight: bolder; color: white; font-size: 0.6em"
-            >
-              SQL
-            </div>
-          </div></i
+    </div>
+
+    <div
+      style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;"
+    >
+      <h3 class="texteffect" style="color:#1b1b1b">.NET Developer</h3>
+      <p>
+        lite om mig
+      </p>
+      <div id="elist"></div>
+    </div>
+
+    <div class="bgimg-2">
+      <div class="caption">
+        <span
+          class="border lighttext"
+          style="background-color:transparent;font-size:25px;color: #1b1b1b;"
+          >C# .Net Javascript CSS HTML</span
         >
-      </span>
-    </nav>
-  </header>
-
-  <body class="d-flex flex-column h-100" style="padding-top: 90px;">
-    <main role="main" class="container">
-      <div class="mt-2 container">
-        <div class="container">
-          <div class="row" style="margin: 0 auto">
-            <img
-              id="bildPåMig"
-              src="images/jag.jpg"
-              class="rounded-circle col-12 col-sm-2"
-              style="padding: 0"
-              alt="bild på Stefan Björnson"
-            />
-            <div class="col-12 col-sm-10 text-center text-sm-left">
-              <h1 class="display-4 text-center text-sm-left">
-                Stefan Björnson
-              </h1>
-              <p class="lead">Bilvande och i hjärtat systemutvecklare</p>
-            </div>
-          </div>
-
-          <div class="float-none"></div>
-
-          <div class="mt-2 container">
-            <div class="row justify-content-center" id="list">
-              <div class="card text-white bg-primary" style="width: 18rem;">
-                <img
-                  src="images/memory.jpg"
-                  class="card-img-top p-1"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Memoryspel i Javascript</h5>
-                  <p class="card-text">Ett enkelt Memory spel i Javascript</p>
-                  <a href="memory.html" class="btn btn-primary">Testa!</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="float-none"></div>
       </div>
-    </main>
-    <footer class="footer mt-3 py-3">
-      <div class="container">
-        <p class="text-muted text-center">
-          Stefan Björnson | Stefanbp@me.com | Dalagatan 11, Ängelholm
+    </div>
+
+    <div style="position:relative;">
+      <div
+        style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;"
+      >
+        <h2>Yrkes högskola</h2>
+        <div class="" id="yhlist"></div>
+        <h2>
+          Udemy kurser
+        </h2>
+        <div class="" id="list"></div>
+      </div>
+    </div>
+
+    <div class="bgimg-3">
+      <div class="caption">
+        <span
+          class="border lighttext"
+          style="background-color:transparent;font-size:25px;color: #1b1b1b;"
+          >Alla problem går att lösa</span
+        >
+      </div>
+    </div>
+
+    <div style="position:relative;">
+      <div
+        style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;"
+      >
+        <p>
+          Programering är...
         </p>
       </div>
-    </footer>
+    </div>
+
+    <div class="bgimg-1">
+      <div class="caption">
+        <span class="border texteffect">Redo att jobba! Redo att bidra!</span>
+        <p style="margin: 8px;padding: 8px;"></p>
+        <span class="border texteffect">StefanBP@me.com</span>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
