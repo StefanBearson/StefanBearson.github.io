@@ -106,6 +106,12 @@
         text-align: center;
       }
       @media only screen and (max-device-width: 1024px) {
+        body,
+        html {
+          padding: 0;
+          margin: 0;
+          width: 100%;
+        }
         div {
           padding: 4px!important;
         }
@@ -120,6 +126,7 @@
         .bgimg-1{
           padding: 0;
           margin: 0;
+          width: 100%;
         }
       }
       /* Turn off parallax scrolling for tablets and phones */
@@ -196,7 +203,9 @@
       <div class="caption">
         <span class="border texteffect">Redo att jobba! Redo att bidra!</span>
         <p style="margin: 8px;padding: 8px;"></p>
-        <span class="border texteffect">StefanBP@me.com</span>
+        <span class="border texteffect" style="font-size: 20px;"
+          >StefanBP@me.com</span
+        >
       </div>
     </div>
     <script src="script.js"></script>
