@@ -565,15 +565,28 @@ kommandekurser = [
     id: "40"
   },
   {
-    kurs: "NodeJS - The Complete Guide (incl. MVC, REST APIs, GraphQL)",
+    kurs: "Xamarin Forms: Build Native Cross-platform Apps with C#",
     plats: "udemy",
-    beskrivning: "Automapper i C# projekt",
+    beskrivning: "Hur man bygger Mobila applikationer i Xamarin",
     längd: "7.5 timmar video",
     lärare: "Mosh Hamedani",
     länkkurs: "https://www.udemy.com/course/xamarin-forms-course/",
     länklärare:
       "https://www.udemy.com/course/xamarin-forms-course/#instructor-1",
     avklarat: "68",
+    id: "41"
+  },
+  {
+    kurs: "C# Developers: Double Your Coding Speed with Visual Studio",
+    plats: "udemy",
+    beskrivning:
+      "Lite om hur man kan effektivisera sitt arbete i Visual Studio",
+    längd: "1.5 timmar video",
+    lärare: "Mosh Hamedani",
+    länkkurs: "https://www.udemy.com/course/visual-studio-tips-tricks/",
+    länklärare:
+      "https://www.udemy.com/course/visual-studio-tips-tricks/#instructor-1",
+    avklarat: "0",
     id: "41"
   }
 ];
