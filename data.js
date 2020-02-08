@@ -1,592 +1,624 @@
-template = [
+courses = [
   {
-    kurs: "",
-    plats: "",
-    beskrivning: "",
-    längd: "",
-    lärare: "",
-    länkkurs: "",
-    länklärare: "",
-    avklarat: "0",
-    id: ""
-  }
-];
-
-tidigareJobb = [
-  {
-    namn: "Skogs Tryckeri",
-    possition: "Tryckeribiträde",
-    start: "2000-00-00",
-    slut: "2000-00-00"
-  },
-  {
-    namn: "Falck, G4S, Avarn",
-    possition: "Väktare",
-    start: "2000-00-00",
-    slut: "2000-00-00"
-  }
-];
-
-kurser = [
-  {
-    kurs: "C#",
-    plats: "EC Utbildning AB Helsingborg",
-    beskrivning:
+    id: 0,
+    place: "EC Utbildning AB Helsingborg",
+    course: "C#",
+    courseLink:
+      "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
+    length: "30 YH-poäng",
+    description:
       "Kursen syftar till att studerande utvecklar specialiserade kunskaper i objektorienterad  programmering med en fördjupning i programspråket C#. Kursen inleds med att studerande får kunskaper om versionshantering för att kunna programmera säkert.",
-    längd: "30 YH-poäng",
-    lärare: "Robert Tublen",
-    länkkurs: "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
-    länklärare: "https://www.linkedin.com/in/rtublen/",
-    avklarat: "100",
-    id: "1",
-    betyg: "VG"
+    teacher: "Robert Tublen",
+    teacherLink: "https://www.linkedin.com/in/rtublen/",
+    completion: "100",
+    grade: "VG"
   },
   {
-    kurs: "ASP.NET (CORE) MVC",
-    plats: "EC Utbildning AB Helsingborg",
-    beskrivning:
+    id: 1,
+    place: "EC Utbildning AB Helsingborg",
+    course: "ASP.NET (CORE) MVC",
+    courseLink:
+      "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
+    length: "25 YH-poäng",
+    description:
       "Kursen syftar till att ge studenten specialiserad kunskap i att skapa webbapplikationer med ramverket ASP.NET MVC, där studenten utvecklar avancerad teoretisk och praktiskt kunskap som låter denna självständigt arbeta med detta på ett effektivt vis.",
-    längd: "25 YH-poäng",
-    lärare: "Robert Tublen",
-    länkkurs: "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
-    länklärare: "https://www.linkedin.com/in/rtublen/",
-    avklarat: "100",
-    id: "2",
-    betyg: "VG"
+    teacher: "Robert Tublen",
+    teacherLink: "https://www.linkedin.com/in/rtublen/",
+    completion: "100",
+    grade: "VG"
   },
   {
-    kurs: "Datalagring med .NET",
-    plats: "EC Utbildning AB Helsingborg",
-    beskrivning:
+    id: 2,
+    place: "EC Utbildning AB Helsingborg",
+    course: "Datalagring med .NET",
+    courseLink:
+      "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
+    length: "25 YH-poäng",
+    description:
       "Kursen syftar till att ge den studerande specialiserad kunskap inom lagring av data i .NET, både med avseende på format (XML, JSON och CSV) och sättet på vilket data lagras. Vidare lär sig studenten skapa effektiva lagringslösningar som stöder applikationen behov, där fokus ligger på relationsdatabasen SQL Server och SQL.",
-    längd: "25 YH-poäng",
-    lärare: "Robert Tublen",
-    länkkurs: "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
-    länklärare: "https://www.linkedin.com/in/rtublen/",
-    avklarat: "100",
-    id: "3",
-    betyg: "VG"
+    teacher: "Robert Tublen",
+    teacherLink: "https://www.linkedin.com/in/rtublen/",
+    completion: "100",
+    grade: "VG"
   },
   {
-    kurs: "HTML & CSS",
-    plats: "EC Utbildning AB Helsingborg",
-    beskrivning:
+    id: 3,
+    place: "EC Utbildning AB Helsingborg",
+    course: "HTML & CSS",
+    courseLink:
+      "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
+    length: "25 YH-poäng",
+    description:
       "Kursen syftar till att ge den studerande specialiserad kunskap inom HTML & CSS samt hur man jobbar effektivt med dessa teknologier, genom att använda vanligt förekommande bibliotek och metodologier, för att realisera designskisser och skapa attraktiva webbsidor.",
-    längd: "25 YH-poäng",
-    lärare: "Björn Jönsson",
-    länkkurs: "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
-    länklärare: "https://www.linkedin.com/in/bj%C3%B6rn-j%C3%B6nsson-7a69501/",
-    avklarat: "100",
-    id: "4",
-    betyg: "G"
+    teacher: "Björn Jönsson",
+    teacherLink: "https://www.linkedin.com/in/bj%C3%B6rn-j%C3%B6nsson-7a69501/",
+    completion: "100",
+    grade: "G"
   },
   {
-    kurs: "JavaScript",
-    plats: "EC Utbildning AB Helsingborg",
-    beskrivning:
+    id: 4,
+    place: "EC Utbildning AB Helsingborg",
+    course: "JavaScript",
+    courseLink:
+      "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
+    length: "25 YH-poäng",
+    description:
       "Kursen syftar till att den studerande utvecklar specialiserade kunskaper genom teori och praktiska övningar. Den får utveckla sina kunskaper om, färdigheter i, och kompetenser för att skapa och utveckla enklare front-end tillämpningar.",
-    längd: "25 YH-poäng",
-    lärare: "Björn Jönsson",
-    länkkurs: "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
-    länklärare: "https://www.linkedin.com/in/bj%C3%B6rn-j%C3%B6nsson-7a69501/",
-    avklarat: "100",
-    id: "5",
-    betyg: "VG"
+    teacher: "Björn Jönsson",
+    teacherLink: "https://www.linkedin.com/in/bj%C3%B6rn-j%C3%B6nsson-7a69501/",
+    completion: "100",
+    grade: "VG"
   },
   {
-    kurs: "Total Frontend Website Creation HTML CSS JavaScript jQuery",
-    plats: "Udemy",
-    beskrivning:
-      "Omfattande kurs om hur man skapar webbsidor, man använder både Html, Css som Javascript och även jQuery berörs lite.",
-    längd: "8.5 timmar video",
-    lärare: "Laurence Svekis",
-    länkkurs:
+    id: 5,
+    place: "EC Utbildning AB Helsingborg",
+    course: "Agil systemutveckling med Scrum",
+    courseLink:
+      "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
+    length: "25 YH-poäng",
+    description:
+      "Kursen syftar till att ge nödvändiga teoretiska och praktiska kunskaper inom agil systemutveckling med Scrum, för att lägga grund för arbete inom projekt där denna vanligt förekommande metodologi används. Efter ett antal inledande föreläsningar delas deltagarna upp i grupper som sedan får genomföra ett simulerat projekt där Scrum och alla de koncept som ingår i detta, används.",
+    teacher: "Robert Tublen",
+    teacherLink: "https://www.linkedin.com/in/rtublen/",
+    completion: "0",
+    grade: "VG"
+  },
+  {
+    id: 6,
+    place: "EC Utbildning AB Helsingborg",
+    course: "ASP.NET Web API",
+    courseLink:
+      "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
+    length: "20 YH-poäng",
+    description:
+      "Kursen syftar till att ge den studerande specialiserad kunskap inom webbaserade API:er samt hur man skapar dessa för att tillgodose behovet av data från webbapplikationer.",
+    teacher: "Robert Tublen",
+    teacherLink: "https://www.linkedin.com/in/rtublen/",
+    completion: "0",
+    grade: "VG"
+  },
+  {
+    id: 7,
+    place: "EC Utbildning AB Helsingborg",
+    course: "React",
+    courseLink:
+      "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
+    length: "20 YH-poäng",
+    description:
+      "Kursen syftar till att lära den studerande sig att sätta sig in i rollen som arkitekt för att skapa kod med en hållbar struktur även i större projekt. Detta kräver disciplin och struktur på en professionell nivå.",
+    teacher: "Robert Tublen",
+    teacherLink: "https://www.linkedin.com/in/rtublen/",
+    completion: "100",
+    grade: "VG"
+  },
+  {
+    id: 8,
+    place: "EC Utbildning AB Helsingborg",
+    course: "CMS",
+    courseLink:
+      "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
+    length: "25 YH-poäng",
+    description:
+      "Kursen syftar till att ge studerande praktiska kunskaper inom Content Management System (CMS) och hur dessa kan användas för att snabbt skapa flexibla lösningar som är enkla att underhålla och skapa innehåll för.",
+    teacher: "Robert Tublen",
+    teacherLink: "https://www.linkedin.com/in/rtublen/",
+    completion: "0",
+    grade: "VG"
+  },
+  {
+    id: 9,
+    place: "EC Utbildning AB Helsingborg",
+    course: "Examensarbete",
+    courseLink:
+      "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
+    length: "20 YH-poäng",
+    description:
+      "Målet med kursen är att studerande självständigt utvecklar och fördjupar sin kunskap om och förståelse för hur ett teoretiskt och empiriskt arbete inom utbildningens område samt i rapportskrivning, om möjligt på uppdrag av en extern uppdragsgivare, utförs. Vidare syftar kursen även till att uppfylla utbildningens övergripande examensmål, där den studerande ska kunna identifiera, formulera, analysera, lösa problem och utföra komplexa uppgifter kopplade till studieområdet. Examensarbetet kan var a en empirisk undersökning, ett utvecklingsarbete, en litteratur eller en dokumentstudie.",
+    teacher: "Robert Tublen",
+    teacherLink: "https://www.linkedin.com/in/rtublen/",
+    completion: "0",
+    grade: "Ej Avslutad"
+  },
+  {
+    id: 10,
+    place: "EC Utbildning AB Helsingborg",
+    course: "LIA 1 Applikationsutveckling",
+    courseLink:
+      "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
+    length: "35 YH-poäng",
+    description:
+      "Kursen syftar till att studerande utvecklar kunskap om och förståelse för att självständigt kunna utföra specialiserade arbetsuppgifter inom utbildningens område med hjälp av relevanta arbetsmetoder. Studerande ska kunna arbeta på ett strukturerat och ansvarstagande sätt ute på ett företag med programmering. Kursen omfattar Webbprogrammering eller applikationsprogrammering. Arbetet ska utföras i projektform.",
+    teacher: "Robert Tublen",
+    teacherLink: "https://www.linkedin.com/in/rtublen/",
+    completion: "0",
+    grade: "VG"
+  },
+  {
+    id: 11,
+    place: "EC Utbildning AB Helsingborg",
+    course: "LIA 2: Mjukvaruutveckling",
+    courseLink:
+      "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
+    length: "75 YH-poäng",
+    description:
+      "Kursen syftar till att studerande utvecklar kunskap om och förståelse för att självständigt kunna utföra specialiserade arbetsuppgifter inom utbildningens område med hjälp av relevanta arbetsmetoder. Studerande ska kunna arbeta på ett strukturerat och ansvarstagande sätt ute på ett företag med programmering. Kursen omfattar Webbprogrammering eller applikationsprogrammering. Arbetet ska utföras i projektform.",
+    teacher: "Robert Tublen",
+    teacherLink: "https://www.linkedin.com/in/rtublen/",
+    completion: "0",
+    grade: "Ej avslutad"
+  },
+  {
+    id: 12,
+    place: "EC Utbildning AB Helsingborg",
+    course: "Mjukvaruanalys",
+    courseLink:
+      "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
+    length: "25 YH-poäng",
+    description:
+      " Kursen syftar till att studerande utvecklar specialiserade kunskaper i programlogiska problem med analyser och designmetoder med hjälp av UML och flödesdiagram enligt den objektorienterade modellen. Kursen går delvis parallellt med kursen Agil systemutveckling C#-kursen för att förbereda den studerande i arbete i större projekt.",
+    teacher: "Robert Tublen",
+    teacherLink: "https://www.linkedin.com/in/rtublen/",
+    completion: "0",
+    grade: "VG"
+  },
+  {
+    id: 13,
+    place: "EC Utbildning AB Helsingborg",
+    course: "Systemintegration",
+    courseLink:
+      "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
+    length: "25 YH-poäng",
+    description:
+      "Kursen syftar till att ge specialiserad kunskap inom säkerhet relaterad till webbapplikationer, vilka de vanligaste hoten är och hur man kan skydda sig från dessa.",
+    teacher: "Robert Tublen",
+    teacherLink: "https://www.linkedin.com/in/rtublen/",
+    completion: "100",
+    grade: "VG"
+  },
+  {
+    id: 14,
+    place: "Udemy",
+    course: "Total Frontend Website Creation HTML CSS JavaScript jQuery",
+    courseLink:
       "https://www.udemy.com/frontend-website-developer-html-css-javascript-jquery/",
-    länklärare: "https://www.udemy.com/user/lars51/",
-    avklarat: "100",
-    id: "6"
+    length: "8.5 timmar video",
+    description:
+      "Omfattande kurs om hur man skapar webbsidor, man använder både Html, Css som Javascript och även jQuery berörs lite.",
+    teacher: "Laurence Svekis",
+    teacherLink: "https://www.udemy.com/user/lars51/",
+    completion: "100",
+    grade: ""
   },
   {
-    kurs: "C# Basics for Beginners: Learn C# Fundamentals by Coding",
-    plats: "Udemy",
-    beskrivning: "Man lär sig grunderna i C# och .NET Framework.",
-    längd: "5.5 timmar video",
-    lärare: "Mosh Hamedani",
-    länkkurs: "https://www.udemy.com/csharp-tutorial-for-beginners/",
-    länklärare: "https://www.udemy.com/user/moshfeghhamedani/",
-    avklarat: "100",
-    id: "7"
+    id: 15,
+    place: "Udemy",
+    course: "C# Basics for Beginners: Learn C# Fundamentals by Coding",
+    courseLink: "https://www.udemy.com/csharp-tutorial-for-beginners/",
+    length: "5.5 timmar video",
+    description: "Man lär sig grunderna i C# och .NET Framework.",
+    teacher: "Mosh Hamedani",
+    teacherLink: "https://www.udemy.com/user/moshfeghhamedani/",
+    completion: "100",
+    grade: ""
   },
   {
-    kurs: "C# Intermediate: Classes, Interfaces and OOP",
-    plats: "Udemy",
-    beskrivning:
+    id: 16,
+    place: "Udemy",
+    course: "C# Intermediate: Classes, Interfaces and OOP",
+    courseLink: "Mosh Hamedani",
+    length: "6 timmar video",
+    description:
       "Man lär sig det som är lite mer avancerat än grunderna, t ex classes, constructors, fields, properties, methods, indexers osv.",
-    längd: "6 timmar video",
-    lärare: "Mosh Hamedani",
-    länkkurs: "Mosh Hamedani",
-    länklärare: "https://www.udemy.com/user/moshfeghhamedani/",
-    avklarat: "100",
-    id: "8"
+    teacher: "Mosh Hamedani",
+    teacherLink: "https://www.udemy.com/user/moshfeghhamedani/",
+    completion: "100",
+    grade: ""
   },
   {
-    kurs: "C# Advanced Topics: Prepare for Technical Interviews",
-    plats: "Udemy",
-    beskrivning: "Man lär sig mer avancerade programmering inom C#.",
-    längd: "3 timmar video",
-    lärare: "Mosh Hamedani",
-    länkkurs: "Mosh Hamedani",
-    länklärare: "https://www.udemy.com/user/moshfeghhamedani/",
-    avklarat: "100",
-    id: "9"
+    id: 17,
+    place: "Udemy",
+    course: "C# Advanced Topics: Prepare for Technical Interviews",
+    courseLink: "Mosh Hamedani",
+    length: "3 timmar video",
+    description: "Man lär sig mer avancerade programmering inom C#.",
+    teacher: "Mosh Hamedani",
+    teacherLink: "https://www.udemy.com/user/moshfeghhamedani/",
+    completion: "100",
+    grade: ""
   },
   {
-    kurs: "Java Programming Masterclass for Software Developers",
-    plats: "Udemy",
-    beskrivning:
+    id: 18,
+    place: "Udemy",
+    course: "Java Programming Masterclass for Software Developers",
+    courseLink:
+      "https://www.udemy.com/java-the-complete-java-developer-course/",
+    length: "77,5 timmar video",
+    description:
       "Denna kursen avslutade jag för ett par år sedan så denna kunskap sitter inte färsk i huvudet längre, men man lär sig allt från grunden till mer avancerad programmering inom Java, kursen är på hela 77.5 timmars videomaterial därtill får man lägga massor av labtid. En gedigen kurs som jag gärn går om någon gång för att fräscha upp minnet.",
-    längd: "77,5 timmar video",
-    lärare: "Tim Buchalka",
-    länkkurs: "https://www.udemy.com/java-the-complete-java-developer-course/",
-    länklärare: "https://www.udemy.com/user/timbuchalka/",
-    avklarat: "100",
-    id: "10"
+    teacher: "Tim Buchalka",
+    teacherLink: "https://www.udemy.com/user/timbuchalka/",
+    completion: "100",
+    grade: ""
   },
   {
-    kurs: "JavaFx Tutorial For Beginners",
-    plats: "Udemy",
-    beskrivning:
+    id: 19,
+    place: "Udemy",
+    course: "JavaFx Tutorial For Beginners",
+    courseLink: "https://www.udemy.com/draft/665098/",
+    length: "7.5 timmar video",
+    description:
       "JavaFX är ett mer grafiskt framework för Java som är avsedd att stödja stationära applikationer och webbläsare. Det är generellt en java-plattform för att skapa rika internetapplikationer som kan köras på en mängd olika enheter.",
-    längd: "7.5 timmar video",
-    lärare: "Yogesh Patel",
-    länkkurs: "https://www.udemy.com/draft/665098/",
-    länklärare: "https://www.udemy.com/user/programmingknowledge/",
-    avklarat: "100",
-    id: "11"
+    teacher: "Yogesh Patel",
+    teacherLink: "https://www.udemy.com/user/programmingknowledge/",
+    completion: "100",
+    grade: ""
   },
   {
-    kurs: "3d modelling - a Modo modeling guide",
-    plats: "Udemy",
-    beskrivning:
+    id: 20,
+    place: "Udemy",
+    course: "3d modelling - a Modo modeling guide",
+    courseLink: "https://www.udemy.com/3d-modeling-in-modo/",
+    length: "17,5 timmar video",
+    description:
       "Man lär sig hur man använder Modo 3d ett avancerat 3d moduleringsverktyg.",
-    längd: "17,5 timmar video",
-    lärare: "Daniel Cremers",
-    länkkurs: "https://www.udemy.com/3d-modeling-in-modo/",
-    länklärare:
+    teacher: "Daniel Cremers",
+    teacherLink:
       "https://www.udemy.com/user/ce4194f5-2ef9-4222-b5e2-22b0aa21999a/",
-    avklarat: "100",
-    id: "12"
+    completion: "100",
+    grade: ""
   },
   {
-    kurs: "Android N: From Beginner to Paid Professional",
-    plats: "Udemy",
-    beskrivning:
+    id: 21,
+    place: "Udemy",
+    course: "Android N: From Beginner to Paid Professional",
+    courseLink: "https://www.udemy.com/learn-android/",
+    length: "25 timmar video",
+    description:
       "En omfattande kurs i hur man gör appar till Android, denna kurs har även den några år på nacken.",
-    längd: "25 timmar video",
-    lärare: "Mark Price",
-    länkkurs: "https://www.udemy.com/learn-android/",
-    länklärare: "https://www.udemy.com/user/mark-price-2/",
-    avklarat: "100",
-    id: "13"
+    teacher: "Mark Price",
+    teacherLink: "https://www.udemy.com/user/mark-price-2/",
+    completion: "100",
+    grade: ""
   },
   {
-    kurs: "Learn the Swift Programming Language for Beginners",
-    plats: "Udemy",
-    beskrivning:
+    id: 22,
+    place: "Udemy",
+    course: "Learn the Swift Programming Language for Beginners",
+    courseLink: "https://www.udemy.com/draft/503666/",
+    length: "4,5 timmar video",
+    description:
       "En liten titt på Apples programmeringsspråk Swift, denna kurs har några år på nacken, så kunskapen sitter inte så fräscht i huvudet.",
-    längd: "4,5 timmar video",
-    lärare: "Jason Rybka",
-    länkkurs: "https://www.udemy.com/draft/503666/",
-    länklärare: "https://www.udemy.com/user/jasonrybka/",
-    avklarat: "100",
-    id: "14"
+    teacher: "Jason Rybka",
+    teacherLink: "https://www.udemy.com/user/jasonrybka/",
+    completion: "100",
+    grade: ""
   },
   {
-    kurs: "iOS 10 & Swift 3: From Beginner to Paid Professional",
-    plats: "udemy",
-    beskrivning:
-      "En mycket omfattande kurs i hur man gör appar till iOS, man använder uteslutande Swift och Apples egna IDE, man får testa att leka och använda många av telefonens APIer. Denna kurs var det ett tag sedan jag gjorde, så kunskapen ligger inte fräscht i huvudet.",
-    längd: "71 timmar video",
-    lärare: "Mark Price",
-    länkkurs: "https://www.udemy.com/devslopes-ios10/",
-    länklärare: "https://www.udemy.com/user/mark-price-2/",
-    avklarat: "100",
-    id: "15"
+    id: 23,
+    place: "Udemy",
+    course: "The Complete JavaScript Course - Beginner to Professional",
+    courseLink: "https://www.udemy.com/javascript-training/",
+    length: "33,5 timmar video",
+    description: "En omfattande kurs i Javascript.",
+    teacher: "Laurence Svekis",
+    teacherLink: "https://www.udemy.com/user/lars51/",
+    completion: "100",
+    grade: ""
   },
   {
-    kurs: "The Complete JavaScript Course - Beginner to Professional",
-    plats: "Udemy",
-    beskrivning: "En omfattande kurs i Javascript.",
-    längd: "33,5 timmar video",
-    lärare: "Laurence Svekis",
-    länkkurs: "https://www.udemy.com/javascript-training/",
-    länklärare: "https://www.udemy.com/user/lars51/",
-    avklarat: "100",
-    id: "26"
-  },
-  {
-    kurs: "C# Developers: Learn the Art of Writing Clean Code",
-    plats: "Udemy",
-    beskrivning:
+    id: 24,
+    place: "Udemy",
+    course: "C# Developers: Learn the Art of Writing Clean Code",
+    courseLink: "https://www.udemy.com/clean-code/",
+    length: "5.5 timmar video",
+    description:
       "Man lär sig tekniker hur man skriver snyggare, bättre kod i C#.",
-    längd: "5.5 timmar video",
-    lärare: "Mosh Hamedani",
-    länkkurs: "https://www.udemy.com/clean-code/",
-    länklärare: "https://www.udemy.com/user/moshfeghhamedani/",
-    avklarat: "100",
-    id: "31"
+    teacher: "Mosh Hamedani",
+    teacherLink: "https://www.udemy.com/user/moshfeghhamedani/",
+    completion: "100",
+    grade: ""
   },
   {
-    kurs: "Full Stack Development with React and ASP.NET Core 2",
-    plats: "udemy",
-    beskrivning:
-      "En snabb kurs på endast 3 timmar, tar upp hur man bygger upp en React frontend med en ASP.NET (WEBAPI Core backend, något förlegade teckniker används inom frontenden, men skulle göra ett react projekt i skolan och behövde snabbt komma igång med react",
-    längd: "3 timmar video",
-    lärare: "_ _",
-    länkkurs:
+    id: 25,
+    place: "Udemy",
+    course: "Complete C# Masterclass",
+    courseLink: "https://www.udemy.com/complete-csharp-masterclass/",
+    length: "28,5 timmar video",
+    description:
+      "En omfattande kurs i C#! Man får lära sig WPF, Databashantering, Linq, och en del spelprogrammering.",
+    teacher: "Denis Panjuta",
+    teacherLink: "https://www.udemy.com/user/denispanjuta/",
+    completion: "59",
+    grade: ""
+  },
+  {
+    id: 26,
+    place: "Udemy",
+    course: "ASP NET Core 3 (ASP.NET 5),MVC,C#,Angular & EF Crash Course",
+    courseLink:
+      "https://www.udemy.com/aspnet-core-aspnet-5mvc-6cweb-api-ef-crash-course/",
+    length: "22,5 timmar video",
+    description:
+      "En kurs i ASP NET Core, man jobbar med bland annat Entity Framwork, Web Api, MVC. Kursen innehåller även också Angular, men där la jag för tillfället inte så mycket energi, då vi ska gå igenom React i vår utbildning sedan. Angular ligger troligen i pipelinen sedan för mig att titta närmare på.",
+    teacher: "",
+    teacherLink: "",
+    completion: "49",
+    grade: ""
+  },
+  {
+    id: 27,
+    place: "Udemy",
+    course: "The Complete jQuery Course: From Beginner To Advanced!",
+    courseLink: "https://www.udemy.com/jquery-tutorial/",
+    length: "6 timmar video",
+    description: "En kurs i jQueary.",
+    teacher: "Joe Parys",
+    teacherLink: "https://www.udemy.com/user/josephparys/",
+    completion: "48",
+    grade: ""
+  },
+  {
+    id: 28,
+    place: "udemy",
+    course: "iOS 10 & Swift 3: From Beginner to Paid Professional",
+    courseLink: "https://www.udemy.com/devslopes-ios10/",
+    length: "71 timmar video",
+    description:
+      "En mycket omfattande kurs i hur man gör appar till iOS, man använder uteslutande Swift och Apples egna IDE, man får testa att leka och använda många av telefonens APIer. Denna kurs var det ett tag sedan jag gjorde, så kunskapen ligger inte fräscht i huvudet.",
+    teacher: "Mark Price",
+    teacherLink: "https://www.udemy.com/user/mark-price-2/",
+    completion: "100",
+    grade: ""
+  },
+  {
+    id: 29,
+    place: "udemy",
+    course: "Full Stack Development with React and ASP.NET Core 2",
+    courseLink:
       "https://www.udemy.com/full-stack-development-with-react-and-aspnet-core-2/",
-    länklärare:
+    length: "3 timmar video",
+    description:
+      "En snabb kurs på endast 3 timmar, tar upp hur man bygger upp en React frontend med en ASP.NET (WEBAPI Core backend, något förlegade teckniker används inom frontenden, men skulle göra ett react projekt i skolan och behövde snabbt komma igång med react",
+    teacher: "_ _",
+    teacherLink:
       "https://www.udemy.com/full-stack-development-with-react-and-aspnet-core-2/#instructor-1",
-    avklarat: "100",
-    id: "32"
+    completion: "100",
+    grade: ""
   },
   {
-    kurs: "Understanding TypeScript",
-    plats: "udemy",
-    beskrivning: "",
-    längd: "7.5 timmar video",
-    lärare: "Maximilian Schwarzmüller",
-    länkkurs: "https://www.udemy.com/course/understanding-typescript/",
-    länklärare:
+    id: 30,
+    place: "udemy",
+    course: "Understanding TypeScript",
+    courseLink: "https://www.udemy.com/course/understanding-typescript/",
+    length: "7.5 timmar video",
+    description: "",
+    teacher: "Maximilian Schwarzmüller",
+    teacherLink:
       "https://www.udemy.com/course/understanding-typescript/#instructor-1",
-    avklarat: "100",
-    id: "35"
+    completion: "100",
+    grade: ""
+  },
+  {
+    id: 31,
+    place: "udemy",
+    course: "Unity Game Development Build 2D & 3D Games",
+    courseLink: "https://www.udemy.com/devslopes-unity3d/",
+    length: "35 timmar video",
+    description:
+      "En kurs i Unity, man lär sig att göra 2d och 3d spel i programmet Unity, språket som binder ihop alltihop är C#.",
+    teacher: "Mark Price",
+    teacherLink: "https://www.udemy.com/user/mark-price-2/",
+    completion: "35",
+    grade: ""
+  },
+  {
+    id: 32,
+    place: "udemy",
+    course: "Entity Framework in Depth: The Complete Guide",
+    courseLink: "https://www.udemy.com/entity-framework-tutorial/",
+    length: "6.5 timmar video",
+    description: "En kurs där man går lite mer på djupet på Entity Framework.",
+    teacher: "Mosh Hamedani",
+    teacherLink: "https://www.udemy.com/user/moshfeghhamedani/",
+    completion: "30",
+    grade: ""
+  },
+  {
+    id: 33,
+    place: "udemy",
+    course: "React - The Complete Guide",
+    courseLink: "https://www.udemy.com/react-the-complete-guide-incl-redux/",
+    length: "40.5 timmar video",
+    description: "En kurs i react, inklusive Hooks, React Router, Redux",
+    teacher: "Maximilian Schwarzmüller",
+    teacherLink: "https://www.udemy.com/user/academind/",
+    completion: "10",
+    grade: ""
+  },
+  {
+    id: 34,
+    place: "udemy",
+    course: "Complete Blender Creator",
+    courseLink: "https://www.udemy.com/blendertutorial/",
+    length: "62.5 timmar video",
+    description:
+      "En kurs i Blender, ett gratis men otroligt kraftfullt 3D program",
+    teacher: "Ben Tristem",
+    teacherLink: "https://www.udemy.com/blendertutorial/#instructor-1",
+    completion: "6",
+    grade: ""
+  },
+  {
+    id: 35,
+    place: "udemy",
+    course: "Learn Pyhton Programming, Masterclass",
+    courseLink:
+      "https://www.udemy.com/python-the-complete-python-developer-course/",
+    length: "42 timmar video",
+    description: "En kurs i Pyhton, från nybörjare till avancerad nivå",
+    teacher: "Ben Tristem",
+    teacherLink:
+      "https://www.udemy.com/python-the-complete-python-developer-course/#instructor-1",
+    completion: "15",
+    grade: ""
+  },
+  {
+    id: 36,
+    place: "udemy",
+    course: "DesignPatterns in C# and .NET",
+    courseLink: "https://www.udemy.com/design-patterns-csharp-dotnet/",
+    length: "13 timmar video",
+    description:
+      "En kurs om Design Patterns, där de tar upp hur man bör göra vissa funktioner osv",
+    teacher: "Dmitri Nesteruk",
+    teacherLink:
+      "https://www.udemy.com/design-patterns-csharp-dotnet/#instructor-1",
+    completion: "18",
+    grade: ""
+  },
+  {
+    id: 37,
+    place: "udemy",
+    course: "Unit Testing for C# Developers",
+    courseLink: "https://www.udemy.com/unit-testing-csharp/",
+    length: "6 timmar video",
+    description: "En kurs hur man testar sin kod automatiskt via bla NUnit m.m",
+    teacher: "Mosh Hamedani",
+    teacherLink: "https://www.udemy.com/unit-testing-csharp/#instructor-1",
+    completion: "33",
+    grade: ""
+  },
+  {
+    id: 38,
+    place: "udemy",
+    course: "Typescript: The Complete Developer's Guide [2020]",
+    courseLink:
+      "https://www.udemy.com/course/typescript-the-complete-developers-guide/",
+    length: "25 timmar video",
+    description: "Typescript",
+    teacher: "Stephen Grider",
+    teacherLink:
+      "https://www.udemy.com/course/typescript-the-complete-developers-guide/#instructor-1",
+    completion: "6",
+    grade: ""
+  },
+  {
+    id: 39,
+    place: "udemy",
+    course: "C# Automapper: Code Smart",
+    courseLink: "https://www.udemy.com/course/c-automapper-code-smart/",
+    length: "1 timmar video",
+    description: "Automapper i C# projekt",
+    teacher: "Stephen Grider",
+    teacherLink:
+      "https://www.udemy.com/course/c-automapper-code-smart/#instructor-1",
+    completion: "70",
+    grade: ""
+  },
+  {
+    id: 40,
+    place: "udemy",
+    course: "React, NodeJS, Express & MongoDB - The MERN Fullstack Guide",
+    courseLink:
+      "https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/",
+    length: "18.5 timmar video",
+    description: "MERN Backend till Frontend i JS",
+    teacher: "Stephen Grider",
+    teacherLink:
+      "https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/#instructor-1",
+    completion: "71",
+    grade: ""
+  },
+  {
+    id: 41,
+    place: "udemy",
+    course: "JavaScript - The Complete Guide 2020 (Beginner + Advanced)",
+    courseLink:
+      "https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced/",
+    length: "52 timmar video",
+    description: "En stor och ingående Javascriptkurs",
+    teacher: "Maximilian Schwarzmuller",
+    teacherLink:
+      "https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced/#instructor-1",
+    completion: "23",
+    grade: ""
+  },
+  {
+    id: 42,
+    place: "udemy",
+    course: "NodeJS - The Complete Guide (incl. MVC, REST APIs, GraphQL)",
+    courseLink: "https://www.udemy.com/course/nodejs-the-complete-guide/",
+    length: "36 timmar video",
+    description: "Automapper i C# projekt",
+    teacher: "Maximilian Schwarzmuller",
+    teacherLink:
+      "https://www.udemy.com/course/nodejs-the-complete-guide/#instructor-1",
+    completion: "17",
+    grade: ""
+  },
+  {
+    id: 43,
+    place: "udemy",
+    course: "Xamarin Forms: Build Native Cross-platform Apps with C#",
+    courseLink: "https://www.udemy.com/course/xamarin-forms-course/",
+    length: "7.5 timmar video",
+    description: "Hur man bygger Mobila applikationer i Xamarin",
+    teacher: "Mosh Hamedani",
+    teacherLink:
+      "https://www.udemy.com/course/xamarin-forms-course/#instructor-1",
+    completion: "68",
+    grade: ""
+  },
+  {
+    id: 44,
+    place: "udemy",
+    course: "C# Developers: Double Your Coding Speed with Visual Studio",
+    courseLink: "https://www.udemy.com/course/visual-studio-tips-tricks/",
+    length: "1.5 timmar video",
+    description:
+      "Lite om hur man kan effektivisera sitt arbete i Visual Studio",
+    teacher: "Mosh Hamedani",
+    teacherLink:
+      "https://www.udemy.com/course/visual-studio-tips-tricks/#instructor-1",
+    completion: "0",
+    grade: ""
   }
 ];
-
-kommandekurser = [
+employment = [
   {
-    kurs: "Agil systemutveckling med Scrum",
-    plats: "EC Utbildning AB Helsingborg",
-    beskrivning:
-      "Kursen syftar till att ge nödvändiga teoretiska och praktiska kunskaper inom agil systemutveckling med Scrum, för att lägga grund för arbete inom projekt där denna vanligt förekommande metodologi används. Efter ett antal inledande föreläsningar delas deltagarna upp i grupper som sedan får genomföra ett simulerat projekt där Scrum och alla de koncept som ingår i detta, används.",
-    längd: "25 YH-poäng",
-    lärare: "Robert Tublen",
-    länkkurs: "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
-    länklärare: "https://www.linkedin.com/in/rtublen/",
-    avklarat: "0",
-    id: "16",
-    betyg: "VG"
+    company: "Skogs Tryckeri, JMS",
+    jobtitle: "Tryckeribiträde",
+    start: "1999-06-01",
+    end: "2008-03-01",
+    description:
+      "Vad man kan ha med sig från denna arbetsplats som är till nytta inom just programmering?  Nu var det väldigt längesedan jag jobbade på JMS, men några saker man fick lära sig som jag tagit med mig är vikten av noggrannhet och att hårt slit lönar sig för att få ett bra resultat."
   },
   {
-    kurs: "ASP.NET Web API",
-    plats: "EC Utbildning AB Helsingborg",
-    beskrivning:
-      "Kursen syftar till att ge den studerande specialiserad kunskap inom webbaserade API:er samt hur man skapar dessa för att tillgodose behovet av data från webbapplikationer.",
-    längd: "20 YH-poäng",
-    lärare: "Robert Tublen",
-    länkkurs: "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
-    länklärare: "https://www.linkedin.com/in/rtublen/",
-    avklarat: "0",
-    id: "17",
-    betyg: "VG"
-  },
-  {
-    kurs: "React",
-    plats: "EC Utbildning AB Helsingborg",
-    beskrivning:
-      "Kursen syftar till att lära den studerande sig att sätta sig in i rollen som arkitekt för att skapa kod med en hållbar struktur även i större projekt. Detta kräver disciplin och struktur på en professionell nivå.",
-    längd: "20 YH-poäng",
-    lärare: "Robert Tublen",
-    länkkurs: "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
-    länklärare: "https://www.linkedin.com/in/rtublen/",
-    avklarat: "100",
-    id: "18",
-    betyg: "VG"
-  },
-  {
-    kurs: "CMS",
-    plats: "EC Utbildning AB Helsingborg",
-    beskrivning:
-      "Kursen syftar till att ge studerande praktiska kunskaper inom Content Management System (CMS) och hur dessa kan användas för att snabbt skapa flexibla lösningar som är enkla att underhålla och skapa innehåll för.",
-    längd: "25 YH-poäng",
-    lärare: "Robert Tublen",
-    länkkurs: "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
-    länklärare: "https://www.linkedin.com/in/rtublen/",
-    avklarat: "0",
-    id: "19",
-    betyg: "VG"
-  },
-  {
-    kurs: "Examensarbete",
-    plats: "EC Utbildning AB Helsingborg",
-    beskrivning:
-      "Målet med kursen är att studerande självständigt utvecklar och fördjupar sin kunskap om och förståelse för hur ett teoretiskt och empiriskt arbete inom utbildningens område samt i rapportskrivning, om möjligt på uppdrag av en extern uppdragsgivare, utförs. Vidare syftar kursen även till att uppfylla utbildningens övergripande examensmål, där den studerande ska kunna identifiera, formulera, analysera, lösa problem och utföra komplexa uppgifter kopplade till studieområdet. Examensarbetet kan var a en empirisk undersökning, ett utvecklingsarbete, en litteratur eller en dokumentstudie.",
-    längd: "20 YH-poäng",
-    lärare: "Robert Tublen",
-    länkkurs: "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
-    länklärare: "https://www.linkedin.com/in/rtublen/",
-    avklarat: "0",
-    id: "20",
-    betyg: "Ej Avslutad"
-  },
-  {
-    kurs: "LIA 1 Applikationsutveckling",
-    plats: "EC Utbildning AB Helsingborg",
-    beskrivning:
-      "Kursen syftar till att studerande utvecklar kunskap om och förståelse för att självständigt kunna utföra specialiserade arbetsuppgifter inom utbildningens område med hjälp av relevanta arbetsmetoder. Studerande ska kunna arbeta på ett strukturerat och ansvarstagande sätt ute på ett företag med programmering. Kursen omfattar Webbprogrammering eller applikationsprogrammering. Arbetet ska utföras i projektform.",
-    längd: "35 YH-poäng",
-    lärare: "Robert Tublen",
-    länkkurs: "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
-    länklärare: "https://www.linkedin.com/in/rtublen/",
-    avklarat: "0",
-    id: "21",
-    betyg: "VG"
-  },
-  {
-    kurs: "LIA 2: Mjukvaruutveckling",
-    plats: "EC Utbildning AB Helsingborg",
-    beskrivning:
-      "Kursen syftar till att studerande utvecklar kunskap om och förståelse för att självständigt kunna utföra specialiserade arbetsuppgifter inom utbildningens område med hjälp av relevanta arbetsmetoder. Studerande ska kunna arbeta på ett strukturerat och ansvarstagande sätt ute på ett företag med programmering. Kursen omfattar Webbprogrammering eller applikationsprogrammering. Arbetet ska utföras i projektform.",
-    längd: "75 YH-poäng",
-    lärare: "Robert Tublen",
-    länkkurs: "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
-    länklärare: "https://www.linkedin.com/in/rtublen/",
-    avklarat: "0",
-    id: "22",
-    betyg: "Ej avslutad"
-  },
-  {
-    kurs: "Mjukvaruanalys",
-    plats: "EC Utbildning AB Helsingborg",
-    beskrivning:
-      " Kursen syftar till att studerande utvecklar specialiserade kunskaper i programlogiska problem med analyser och designmetoder med hjälp av UML och flödesdiagram enligt den objektorienterade modellen. Kursen går delvis parallellt med kursen Agil systemutveckling C#-kursen för att förbereda den studerande i arbete i större projekt.",
-    längd: "25 YH-poäng",
-    lärare: "Robert Tublen",
-    länkkurs: "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
-    länklärare: "https://www.linkedin.com/in/rtublen/",
-    avklarat: "0",
-    id: "23",
-    betyg: "VG"
-  },
-  {
-    kurs: "Systemintegration",
-    plats: "EC Utbildning AB Helsingborg",
-    beskrivning:
-      "Kursen syftar till att ge specialiserad kunskap inom säkerhet relaterad till webbapplikationer, vilka de vanligaste hoten är och hur man kan skydda sig från dessa.",
-    längd: "25 YH-poäng",
-    lärare: "Robert Tublen",
-    länkkurs: "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
-    länklärare: "https://www.linkedin.com/in/rtublen/",
-    avklarat: "100",
-    id: "24",
-    betyg: "VG"
-  },
-  {
-    kurs: "Complete C# Masterclass",
-    plats: "Udemy",
-    beskrivning:
-      "En omfattande kurs i C#! Man får lära sig WPF, Databashantering, Linq, och en del spelprogrammering.",
-    längd: "28,5 timmar video",
-    lärare: "Denis Panjuta",
-    länkkurs: "https://www.udemy.com/complete-csharp-masterclass/",
-    länklärare: "https://www.udemy.com/user/denispanjuta/",
-    avklarat: "59",
-    id: "25"
-  },
-  {
-    kurs: "ASP NET Core 3 (ASP.NET 5),MVC,C#,Angular & EF Crash Course",
-    plats: "Udemy",
-    beskrivning:
-      "En kurs i ASP NET Core, man jobbar med bland annat Entity Framwork, Web Api, MVC. Kursen innehåller även också Angular, men där la jag för tillfället inte så mycket energi, då vi ska gå igenom React i vår utbildning sedan. Angular ligger troligen i pipelinen sedan för mig att titta närmare på.",
-    längd: "22,5 timmar video",
-    lärare: "",
-    länkkurs:
-      "https://www.udemy.com/aspnet-core-aspnet-5mvc-6cweb-api-ef-crash-course/",
-    länklärare: "",
-    avklarat: "49",
-    id: "27"
-  },
-  {
-    kurs: "The Complete jQuery Course: From Beginner To Advanced!",
-    plats: "Udemy",
-    beskrivning: "En kurs i jQueary.",
-    längd: "6 timmar video",
-    lärare: "Joe Parys",
-    länkkurs: "https://www.udemy.com/jquery-tutorial/",
-    länklärare: "https://www.udemy.com/user/josephparys/",
-    avklarat: "48",
-    id: "28"
-  },
-  {
-    kurs: "Unity Game Development Build 2D & 3D Games",
-    plats: "udemy",
-    beskrivning:
-      "En kurs i Unity, man lär sig att göra 2d och 3d spel i programmet Unity, språket som binder ihop alltihop är C#.",
-    längd: "35 timmar video",
-    lärare: "Mark Price",
-    länkkurs: "https://www.udemy.com/devslopes-unity3d/",
-    länklärare: "https://www.udemy.com/user/mark-price-2/",
-    avklarat: "35",
-    id: "29"
-  },
-  {
-    kurs: "Entity Framework in Depth: The Complete Guide",
-    plats: "udemy",
-    beskrivning: "En kurs där man går lite mer på djupet på Entity Framework.",
-    längd: "6.5 timmar video",
-    lärare: "Mosh Hamedani",
-    länkkurs: "https://www.udemy.com/entity-framework-tutorial/",
-    länklärare: "https://www.udemy.com/user/moshfeghhamedani/",
-    avklarat: "30",
-    id: "30"
-  },
-  {
-    kurs: "React - The Complete Guide",
-    plats: "udemy",
-    beskrivning: "En kurs i react, inklusive Hooks, React Router, Redux",
-    längd: "40.5 timmar video",
-    lärare: "Maximilian Schwarzmüller",
-    länkkurs: "https://www.udemy.com/react-the-complete-guide-incl-redux/",
-    länklärare: "https://www.udemy.com/user/academind/",
-    avklarat: "10",
-    id: "31"
-  },
-  {
-    kurs: "Complete Blender Creator",
-    plats: "udemy",
-    beskrivning:
-      "En kurs i Blender, ett gratis men otroligt kraftfullt 3D program",
-    längd: "62.5 timmar video",
-    lärare: "Ben Tristem",
-    länkkurs: "https://www.udemy.com/blendertutorial/",
-    länklärare: "https://www.udemy.com/blendertutorial/#instructor-1",
-    avklarat: "6",
-    id: "32"
-  },
-  {
-    kurs: "Learn Pyhton Programming, Masterclass",
-    plats: "udemy",
-    beskrivning: "En kurs i Pyhton, från nybörjare till avancerad nivå",
-    längd: "42 timmar video",
-    lärare: "Ben Tristem",
-    länkkurs:
-      "https://www.udemy.com/python-the-complete-python-developer-course/",
-    länklärare:
-      "https://www.udemy.com/python-the-complete-python-developer-course/#instructor-1",
-    avklarat: "15",
-    id: "33"
-  },
-  {
-    kurs: "DesignPatterns in C# and .NET",
-    plats: "udemy",
-    beskrivning:
-      "En kurs om Design Patterns, där de tar upp hur man bör göra vissa funktioner osv",
-    längd: "13 timmar video",
-    lärare: "Dmitri Nesteruk",
-    länkkurs: "https://www.udemy.com/design-patterns-csharp-dotnet/",
-    länklärare:
-      "https://www.udemy.com/design-patterns-csharp-dotnet/#instructor-1",
-    avklarat: "18",
-    id: "34"
-  },
-  {
-    kurs: "Unit Testing for C# Developers",
-    plats: "udemy",
-    beskrivning: "En kurs hur man testar sin kod automatiskt via bla NUnit m.m",
-    längd: "6 timmar video",
-    lärare: "Mosh Hamedani",
-    länkkurs: "https://www.udemy.com/unit-testing-csharp/",
-    länklärare: "https://www.udemy.com/unit-testing-csharp/#instructor-1",
-    avklarat: "33",
-    id: "35"
-  },
-  {
-    kurs: "Typescript: The Complete Developer's Guide [2020]",
-    plats: "udemy",
-    beskrivning: "Typescript",
-    längd: "25 timmar video",
-    lärare: "Stephen Grider",
-    länkkurs:
-      "https://www.udemy.com/course/typescript-the-complete-developers-guide/",
-    länklärare:
-      "https://www.udemy.com/course/typescript-the-complete-developers-guide/#instructor-1",
-    avklarat: "6",
-    id: "36"
-  },
-  {
-    kurs: "C# Automapper: Code Smart",
-    plats: "udemy",
-    beskrivning: "Automapper i C# projekt",
-    längd: "1 timmar video",
-    lärare: "Stephen Grider",
-    länkkurs: "https://www.udemy.com/course/c-automapper-code-smart/",
-    länklärare:
-      "https://www.udemy.com/course/c-automapper-code-smart/#instructor-1",
-    avklarat: "70",
-    id: "37"
-  },
-  {
-    kurs: "React, NodeJS, Express & MongoDB - The MERN Fullstack Guide",
-    plats: "udemy",
-    beskrivning: "MERN Backend till Frontend i JS",
-    längd: "18.5 timmar video",
-    lärare: "Stephen Grider",
-    länkkurs:
-      "https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/",
-    länklärare:
-      "https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/#instructor-1",
-    avklarat: "71",
-    id: "38"
-  },
-  {
-    kurs: "JavaScript - The Complete Guide 2020 (Beginner + Advanced)",
-    plats: "udemy",
-    beskrivning: "En stor och ingående Javascriptkurs",
-    längd: "52 timmar video",
-    lärare: "Maximilian Schwarzmuller",
-    länkkurs:
-      "https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced/",
-    länklärare:
-      "https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced/#instructor-1",
-    avklarat: "23",
-    id: "39"
-  },
-  {
-    kurs: "NodeJS - The Complete Guide (incl. MVC, REST APIs, GraphQL)",
-    plats: "udemy",
-    beskrivning: "Automapper i C# projekt",
-    längd: "36 timmar video",
-    lärare: "Maximilian Schwarzmuller",
-    länkkurs: "https://www.udemy.com/course/nodejs-the-complete-guide/",
-    länklärare:
-      "https://www.udemy.com/course/nodejs-the-complete-guide/#instructor-1",
-    avklarat: "17",
-    id: "40"
-  },
-  {
-    kurs: "Xamarin Forms: Build Native Cross-platform Apps with C#",
-    plats: "udemy",
-    beskrivning: "Hur man bygger Mobila applikationer i Xamarin",
-    längd: "7.5 timmar video",
-    lärare: "Mosh Hamedani",
-    länkkurs: "https://www.udemy.com/course/xamarin-forms-course/",
-    länklärare:
-      "https://www.udemy.com/course/xamarin-forms-course/#instructor-1",
-    avklarat: "68",
-    id: "41"
-  },
-  {
-    kurs: "C# Developers: Double Your Coding Speed with Visual Studio",
-    plats: "udemy",
-    beskrivning:
-      "Lite om hur man kan effektivisera sitt arbete i Visual Studio",
-    längd: "1.5 timmar video",
-    lärare: "Mosh Hamedani",
-    länkkurs: "https://www.udemy.com/course/visual-studio-tips-tricks/",
-    länklärare:
-      "https://www.udemy.com/course/visual-studio-tips-tricks/#instructor-1",
-    avklarat: "0",
-    id: "41"
+    company: "Falck, G4S, Avarn",
+    jobtitle: "Väktare",
+    start: "2008-05-01",
+    end: "2018-08-01",
+    description:
+      "Vad man kan ha med sig från denna arbetsplats som är till nytta inom just programmering? Lojalitet både till arbetsgivare och till kunder, alltid tänka på sekretessen, allt är inte alltid lämpligt att prata om. Man blir även varse om hur viktigt ens team är, att man genom att stötta och hjälper varandra kan nå väldigt långt och få bra produktivitet."
   }
 ];

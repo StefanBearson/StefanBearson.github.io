@@ -140,6 +140,9 @@ p.info {
     padding: 0 4px 0 4px;
     margin: 0;
   }
+  span {
+    margin-bottom: 200px !important;
+  }
 
   .bgimg-1,
   .bgimg-2,
