@@ -5,6 +5,7 @@ html {
   width: 100%;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
+  box-sizing: border-box;
 }
 .texteffect {
   /* color: transparent; */
@@ -125,6 +126,8 @@ p.info {
     padding: 0;
     margin: 0;
     width: 100%;
+    max-zoom: 1;
+    min-zoom: 1;
   }
   div {
     padding: 4px !important;
