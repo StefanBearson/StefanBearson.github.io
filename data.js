@@ -1,4 +1,4 @@
-courses = [
+let courses = [
   {
     id: 0,
     place: "EC Utbildning AB Helsingborg",
@@ -600,11 +600,11 @@ courses = [
     teacher: "Mosh Hamedani",
     teacherLink:
       "https://www.udemy.com/course/visual-studio-tips-tricks/#instructor-1",
-    completion: "0",
+    completion: "100",
     grade: ""
   }
 ];
-employment = [
+let employment = [
   {
     company: "Skogs Tryckeri, JMS",
     jobtitle: "Tryckeribiträde",
