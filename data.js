@@ -452,7 +452,7 @@ let courses = [
     description: "En kurs i react, inklusive Hooks, React Router, Redux",
     teacher: "Maximilian Schwarzmüller",
     teacherLink: "https://www.udemy.com/user/academind/",
-    completion: "10",
+    completion: "28",
     grade: ""
   },
   {
@@ -519,7 +519,7 @@ let courses = [
     teacher: "Stephen Grider",
     teacherLink:
       "https://www.udemy.com/course/typescript-the-complete-developers-guide/#instructor-1",
-    completion: "6",
+    completion: "15",
     grade: ""
   },
   {
@@ -602,8 +602,22 @@ let courses = [
       "https://www.udemy.com/course/visual-studio-tips-tricks/#instructor-1",
     completion: "100",
     grade: ""
+  },
+  {
+    id: 45,
+    place: "udemy",
+    course: "AZ-300 Azure Architecture Technologies Exam Prep 2020",
+    courseLink: "https://www.udemy.com/course/70534-azure/",
+    length: "12.5 timmar video",
+    description:
+      "Azure, kurs för att klara AZ-300 certifiering, kanske inga planer för att göra provet, men känner att kunskap om Azure kan vara bra att ha i bakhuvudet, och för att få bättre förståelse för vilka möjligheter man har med Azure, och för den delen andra stora molntjänster.",
+    teacher: "Scott Duffy",
+    teacherLink: "https://www.udemy.com/course/70534-azure/#instructor-1",
+    completion: "5",
+    grade: ""
   }
 ];
+
 let employment = [
   {
     company: "Skogs Tryckeri, JMS",
