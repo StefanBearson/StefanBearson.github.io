@@ -160,6 +160,11 @@ p.info {
     width: 100%;
     background-attachment: scroll;
   }
+  .tabs {
+  }
+  input:checked {
+    display: none;
+  }
 }
 
 .tabs {
