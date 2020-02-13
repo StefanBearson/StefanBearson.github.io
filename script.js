@@ -65,3 +65,25 @@ const printudemyList = () => {
 printEmplymentList();
 printudemyList();
 printYHList();
+
+const udemyInfo = document.getElementById("udemyinfo");
+const udmeyAction = document.getElementById("udemyaction");
+
+udmeyAction.addEventListener("click", function() {
+  if (udemyInfo.classList.contains("hidden")) {
+    udemyInfo.classList.replace("hidden", "notHidden");
+  } else {
+    udemyInfo.classList.replace("notHidden", "hidden");
+  }
+});
+
+const ecInfo = document.getElementById("ecinfo");
+const ecAction = document.getElementById("ecaction");
+
+ecAction.addEventListener("click", function() {
+  if (ecInfo.classList.contains("hidden")) {
+    ecInfo.classList.replace("hidden", "notHidden");
+  } else {
+    ecInfo.classList.replace("notHidden", "hidden");
+  }
+});
