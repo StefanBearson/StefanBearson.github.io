@@ -1,3 +1,13 @@
+:root {
+  --white: white;
+  --dark-bg: #282e34;
+  --light-bg: white;
+  --dark-text: black;
+  --light-text: white;
+  --buttom: #2f4f4f;
+  --buttom-hover: #559191;
+}
+
 body,
 html {
   height: 100%;
@@ -170,18 +180,18 @@ p.info {
 }
 
 .action {
-  background-color: DarkSlateGray;
+  background-color: var(--buttom);
   padding: 8px;
   margin-bottom: 8px;
   border-radius: 4px;
   cursor: pointer;
 }
 .action:hover {
-  background-color: rgb(85, 145, 145);
+  background-color: var(--buttom-hover);
 }
 
 div.info {
-  background-color: white;
+  background-color: var(--white);
   color: black;
   padding: 8px;
   margin: 8px 20px;
