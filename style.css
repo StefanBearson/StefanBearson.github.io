@@ -24,10 +24,10 @@ html {
   background-color: var(--light-bg);
   color: var(--dark-text);
 }
-.border {
+/* .border {
   color: var(--prime);
   font-size: 20px !important;
-}
+} */
 
 .bigPadding {
   padding: 50px 80px;
@@ -125,9 +125,11 @@ a {
   color: var(--prime);
   padding: 18px;
   margin: 4px;
-  font-size: 20px;
-  letter-spacing: 1px;
+  font-size: 23px;
+  letter-spacing: 10px;
+  font-weight: bold;
 }
+
 h2 {
   color: var(--prime);
 }
@@ -162,9 +164,10 @@ p.info {
     width: 100%;
     max-zoom: 1;
     min-zoom: 1;
+    overflow-x: hidden;
   }
   div {
-    padding: 4px !important;
+    padding: 0px;
   }
   h5 {
     padding: 0px 4px 0px 4px;
@@ -205,6 +208,18 @@ p.info {
   }
   div.info {
     margin: 0px !important;
+  }
+  .caption span.border {
+    background-color: var(--dark-bg);
+    color: var(--prime);
+    padding: 18px;
+    margin: 4px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 500;
+  }
+  .bigPadding {
+    padding: 4px;
   }
 }
 
