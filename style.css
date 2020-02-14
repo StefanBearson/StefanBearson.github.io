@@ -7,6 +7,7 @@
   --buttom: #2f4f4f;
   --buttom-hover: #559191;
   --text-hover: rgb(108, 108, 139);
+  --prime: #e0851c;
 }
 
 body,
@@ -22,6 +23,10 @@ html {
 .lightbg {
   background-color: var(--light-bg);
   color: var(--dark-text);
+}
+.border {
+  color: var(--prime);
+  font-size: 20px !important;
 }
 
 .bigPadding {
@@ -55,7 +60,6 @@ html {
   background-image: url("Code.jpg");
   min-height: 100%;
   width: 100%;
-  filter: saturate(10%);
 }
 
 .bgimg-2 {
@@ -113,18 +117,20 @@ a {
   top: 50%;
   width: 100%;
   text-align: center;
-  color: #000;
+  color: var(--prime);
 }
 
 .caption span.border {
   background-color: var(--dark-bg);
-  color: var(--light-text);
+  color: var(--prime);
   padding: 18px;
   margin: 4px;
   font-size: 20px;
   letter-spacing: 1px;
 }
-
+h2 {
+  color: var(--prime);
+}
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -132,6 +138,10 @@ h3 {
   font-size: 4em;
   text-align: center;
 }
+.prime {
+  color: var(--prime);
+}
+
 h5 {
   padding: 0px 4px 0px 4px;
   margin: 0;
