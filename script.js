@@ -87,3 +87,25 @@ ecAction.addEventListener("click", function() {
     ecInfo.classList.replace("notHidden", "hidden");
   }
 });
+
+const eccoursesInfo = document.getElementById("eccoursesinfo");
+const eccoursesAction = document.getElementById("eccoursesaction");
+
+eccoursesAction.addEventListener("click", function() {
+  if (eccoursesInfo.classList.contains("hidden")) {
+    eccoursesInfo.classList.replace("hidden", "notHidden");
+  } else {
+    eccoursesInfo.classList.replace("notHidden", "hidden");
+  }
+});
+
+const udemycoursesInfo = document.getElementById("udemycoursesinfo");
+const udemycoursesAction = document.getElementById("udemycoursesaction");
+
+udemycoursesAction.addEventListener("click", function() {
+  if (udemycoursesInfo.classList.contains("hidden")) {
+    udemycoursesInfo.classList.replace("hidden", "notHidden");
+  } else {
+    udemycoursesInfo.classList.replace("notHidden", "hidden");
+  }
+});

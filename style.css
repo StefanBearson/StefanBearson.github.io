@@ -3,7 +3,7 @@
   --dark-bg: #282e34;
   --light-bg: white;
   --dark-text: black;
-  --light-text: white;
+  --light-text: rgb(199, 198, 218);
   --buttom: #2f4f4f;
   --buttom-hover: #559191;
 }
@@ -16,6 +16,20 @@ html {
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
   box-sizing: border-box;
+}
+
+.lightbg {
+  background-color: var(--light-bg);
+  color: var(--dark-text);
+}
+
+.bigPadding {
+  padding: 50px 80px;
+}
+
+.darkbg {
+  background-color: var(--dark-bg);
+  color: var(--light-text);
 }
 .texteffect {
   /* color: transparent; */
@@ -114,7 +128,6 @@ h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
   font: 20px "Lato", sans-serif;
-  color: #fff;
   font-size: 4em;
   text-align: center;
 }
