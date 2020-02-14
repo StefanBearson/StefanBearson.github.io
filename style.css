@@ -6,6 +6,7 @@
   --light-text: rgb(199, 198, 218);
   --buttom: #2f4f4f;
   --buttom-hover: #559191;
+  --text-hover: rgb(108, 108, 139);
 }
 
 body,
@@ -72,8 +73,8 @@ html {
 }
 
 .listitem {
-  background-color: #fff;
-  color: black;
+  background-color: var(--light-bg);
+  color: var(--dark-text);
   border: 1px solid rgb(180, 180, 180);
   border-radius: 3px;
   text-decoration: none;
@@ -83,7 +84,7 @@ html {
 }
 .listitem:hover {
   /* background-color: rgb(250, 250, 250); */
-  color: rgb(108, 108, 139);
+  color: var(--text-hover);
   transform: scale(1.01);
   box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.5);
 }
