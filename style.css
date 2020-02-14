@@ -170,6 +170,14 @@ p.info {
     padding: 0px 4px 0px 4px;
     margin: 0;
   }
+
+  h2 {
+    text-align: center;
+  }
+  h4 {
+    text-align: center;
+    text-transform: uppercase;
+  }
   p {
     padding: 0 4px 4px 4px;
     margin: 0;
@@ -194,6 +202,9 @@ p.info {
     margin: 0;
     width: 100%;
     background-attachment: scroll;
+  }
+  div.info {
+    margin: 0px !important;
   }
 }
 
