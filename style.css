@@ -116,8 +116,8 @@ a {
 }
 
 .caption span.border {
-  background-color: #111;
-  color: #fff;
+  background-color: var(--dark-bg);
+  color: var(--light-text);
   padding: 18px;
   margin: 4px;
   font-size: 20px;
@@ -162,7 +162,7 @@ p.info {
   p {
     padding: 0 4px 4px 4px;
     margin: 0;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
   }
   span {
     margin-bottom: 200px !important;
