@@ -193,8 +193,7 @@ p.info {
     letter-spacing: 5px;
     /* text-transform: uppercase; */
     font: 20px "Lato", sans-serif;
-    color: #fff;
-
+    color: var(--dark-bg);
     font-size: 2em;
     text-align: center;
   }
