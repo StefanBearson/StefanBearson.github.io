@@ -162,6 +162,7 @@ p.info {
   p {
     padding: 0 4px 4px 4px;
     margin: 0;
+    margin-bottom: 4px;
   }
   span {
     margin-bottom: 200px !important;
