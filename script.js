@@ -22,7 +22,13 @@ const printYHList = () => {
     if (e.place == "EC Utbildning AB Helsingborg") {
       html += "<a href=" + e.courseLink + "><div class='listitem'>";
       html +=
-        "<h5>" + e.course + "</h5><p class='time'> betyg: " + e.grade + "</p>";
+        "<h5>" +
+        e.course +
+        "</h5><p>" +
+        e.description +
+        "</p><p class='time'> betyg: " +
+        e.grade +
+        "</p>";
       html += "</div></a>";
     }
   });
@@ -107,5 +113,16 @@ udemycoursesAction.addEventListener("click", function() {
     udemycoursesInfo.classList.replace("hidden", "notHidden");
   } else {
     udemycoursesInfo.classList.replace("notHidden", "hidden");
+  }
+});
+
+const aboutmeInfo = document.getElementById("aboutmeinfo");
+const aboutmeAction = document.getElementById("aboutmeaction");
+
+aboutmeAction.addEventListener("click", function() {
+  if (aboutmeInfo.classList.contains("hidden")) {
+    aboutmeInfo.classList.replace("hidden", "notHidden");
+  } else {
+    aboutmeInfo.classList.replace("notHidden", "hidden");
   }
 });

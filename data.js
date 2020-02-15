@@ -105,7 +105,7 @@ let courses = [
       "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
     length: "20 YH-poäng",
     description:
-      "Kursen syftar till att lära den studerande sig att sätta sig in i rollen som arkitekt för att skapa kod med en hållbar struktur även i större projekt. Detta kräver disciplin och struktur på en professionell nivå.",
+      "Kursen syftar till att lära den studerande att bygga SPA i react och förstå ",
     teacher: "Robert Tublen",
     teacherLink: "https://www.linkedin.com/in/rtublen/",
     completion: "100",
@@ -120,7 +120,7 @@ let courses = [
     length: "25 YH-poäng",
     description:
       "Kursen syftar till att ge studerande praktiska kunskaper inom Content Management System (CMS) och hur dessa kan användas för att snabbt skapa flexibla lösningar som är enkla att underhålla och skapa innehåll för.",
-    teacher: "Robert Tublen",
+    teacher: "Thomas Frank",
     teacherLink: "https://www.linkedin.com/in/rtublen/",
     completion: "0",
     grade: "VG"
@@ -189,7 +189,7 @@ let courses = [
       "http://www.ecutbildning.se/utbildningar/webbutvecklare-inom-net",
     length: "25 YH-poäng",
     description:
-      "Kursen syftar till att ge specialiserad kunskap inom säkerhet relaterad till webbapplikationer, vilka de vanligaste hoten är och hur man kan skydda sig från dessa.",
+      "Kursen syftar till att ge kunskap inom systemintegration. Man lär sig hur microservices fungerar, Teknologier som används är Docker, Kubernetes och Azure",
     teacher: "Robert Tublen",
     teacherLink: "https://www.linkedin.com/in/rtublen/",
     completion: "100",
