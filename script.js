@@ -4,7 +4,7 @@ const printEmplymentList = () => {
 
   employment.map(e => {
     html += "<div class='listitem'>";
-    html += "<p>" + e.jobtitle + "</p>";
+    html += "<h4>" + e.jobtitle + "</h4>";
     html += "<h5>" + e.company + "</h5>";
     html += "<p>Anställd: " + e.start + " till " + e.end + "</p>";
     html += "<p>" + e.description + "</p>";

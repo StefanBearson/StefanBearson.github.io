@@ -8,6 +8,8 @@
   --buttom-hover: #559191;
   --text-hover: rgb(108, 108, 139);
   --prime: #e0851c;
+
+  --item-border-radius: 3px;
 }
 
 body,
@@ -77,7 +79,7 @@ html {
   background-color: var(--light-bg);
   color: var(--dark-text);
   border: 1px solid rgb(180, 180, 180);
-  border-radius: 3px;
+  border-radius: var(--item-border-radius);
   text-decoration: none;
   padding-left: 8px;
   padding-right: 8px;
@@ -142,7 +144,7 @@ h3 {
 }
 
 h5 {
-  padding: 0px 4px 0px 4px;
+  padding-top: 8px;
   margin: 0;
 }
 p.time {
@@ -150,7 +152,6 @@ p.time {
   margin: 0;
 }
 p.info {
-  padding: 0px 4px 0px 4px;
   margin: 0;
 }
 @media only screen and (max-device-width: 1024px) {
@@ -167,7 +168,7 @@ p.info {
     padding: 0px;
   }
   h5 {
-    padding: 0px 4px 0px 4px;
+    padding-top: 8px;
     margin: 0;
   }
 
@@ -179,7 +180,6 @@ p.info {
     text-transform: uppercase;
   }
   p {
-    padding: 0 4px 4px 4px;
     margin: 0;
     margin-bottom: 8px;
   }
@@ -231,7 +231,7 @@ p.info {
   color: var(--light-text);
   padding: 8px;
   margin-bottom: 8px;
-  border-radius: 3px;
+  border-radius: var(--item-border-radius);
   cursor: pointer;
 }
 .action:hover {
