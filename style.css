@@ -9,6 +9,7 @@
   --text-hover: rgb(108, 108, 139);
   --prime: #e0851c;
 
+  --dark-transparent: rgba(0, 0, 0, 0.2);
   --item-border-radius: 3px;
 }
 
@@ -109,9 +110,10 @@ html {
 }
 .emailme {
   text-align: center !important;
-  font-size: 1.4em;
+  font-size: 1.4em !important;
   color: var(--prime);
   margin: auto;
+  padding-bottom: 40px;
 }
 
 a {
@@ -136,6 +138,7 @@ a {
   font-size: 23px;
   letter-spacing: 10px;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -204,6 +207,18 @@ p.info {
     font-size: 2em;
     text-align: center;
   }
+  div.emailme {
+    background-color: var(--light-bg);
+    border: none;
+  }
+  .emailme {
+    font-size: 20px !important;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: var(--item-border-radius);
+    border: solid 1px var(--prime);
+    background-color: var(--dark-transparent);
+  }
   .bgimg-1,
   .bgimg-2,
   .bgimg-3 {
@@ -223,6 +238,7 @@ p.info {
     font-size: 15px;
     letter-spacing: 1px;
     font-weight: 500;
+    text-transform: uppercase;
   }
   .bigPadding {
     padding: 4px;
