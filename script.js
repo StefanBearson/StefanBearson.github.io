@@ -3,7 +3,7 @@ const printEmplymentList = () => {
   let html = "";
 
   employment.map(e => {
-    html += "<div class='listitem'>";
+    html += "<div class='listitem employment'>";
     html += "<h4>" + e.jobtitle + "</h4>";
     html += "<h5>" + e.company + "</h5>";
     html += "<p>Anställd: " + e.start + " till " + e.end + "</p>";
@@ -124,5 +124,16 @@ aboutmeAction.addEventListener("click", function() {
     aboutmeInfo.classList.replace("hidden", "notHidden");
   } else {
     aboutmeInfo.classList.replace("notHidden", "hidden");
+  }
+});
+
+const employmentInfo = document.getElementById("employmentinfo");
+const employmentAction = document.getElementById("employmentaction");
+
+employmentAction.addEventListener("click", function() {
+  if (employmentInfo.classList.contains("hidden")) {
+    employmentInfo.classList.replace("hidden", "notHidden");
+  } else {
+    employmentInfo.classList.replace("notHidden", "hidden");
   }
 });
