@@ -532,7 +532,7 @@ let courses = [
     teacher: "Stephen Grider",
     teacherLink:
       "https://www.udemy.com/course/c-automapper-code-smart/#instructor-1",
-    completion: "70",
+    completion: "100",
     grade: ""
   },
   {
@@ -613,7 +613,7 @@ let courses = [
       "Azure, kurs för att klara AZ-300 certifiering, kanske inga planer för att göra provet, men känner att kunskap om Azure kan vara bra att ha i bakhuvudet, och för att få bättre förståelse för vilka möjligheter man har med Azure, och för den delen andra stora molntjänster.",
     teacher: "Scott Duffy",
     teacherLink: "https://www.udemy.com/course/70534-azure/#instructor-1",
-    completion: "11",
+    completion: "18",
     grade: ""
   }
 ];
