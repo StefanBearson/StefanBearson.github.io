@@ -452,7 +452,7 @@ let courses = [
     description: "En kurs i react, inklusive Hooks, React Router, Redux",
     teacher: "Maximilian Schwarzmüller",
     teacherLink: "https://www.udemy.com/user/academind/",
-    completion: "28",
+    completion: "29",
     grade: ""
   },
   {
@@ -627,7 +627,7 @@ let courses = [
     teacher: "Packet Publishing",
     teacherLink:
       "https://www.udemy.com/course/design-patterns-in-typescript/#instructor-1",
-    completion: "27",
+    completion: "38",
     grade: ""
   }
 ];
