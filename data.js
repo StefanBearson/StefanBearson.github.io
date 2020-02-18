@@ -615,6 +615,20 @@ let courses = [
     teacherLink: "https://www.udemy.com/course/70534-azure/#instructor-1",
     completion: "18",
     grade: ""
+  },
+  {
+    id: 46,
+    place: "udemy",
+    course: "Design Patterns in TypeScript",
+    courseLink: "https://www.udemy.com/course/design-patterns-in-typescript/",
+    length: "5 timmar video",
+    description:
+      "Design Patterns i TypeScript, går igenom de vanliga desingmönster som finns och hur man använder och framförallt var man ska använda dom.",
+    teacher: "Packet Publishing",
+    teacherLink:
+      "https://www.udemy.com/course/design-patterns-in-typescript/#instructor-1",
+    completion: "0",
+    grade: ""
   }
 ];
 
