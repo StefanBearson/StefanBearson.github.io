@@ -627,7 +627,7 @@ let courses = [
     teacher: "Packet Publishing",
     teacherLink:
       "https://www.udemy.com/course/design-patterns-in-typescript/#instructor-1",
-    completion: "0",
+    completion: "27",
     grade: ""
   }
 ];
