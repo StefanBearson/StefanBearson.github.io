@@ -629,6 +629,19 @@ let courses = [
       "https://www.udemy.com/course/design-patterns-in-typescript/#instructor-1",
     completion: "45",
     grade: ""
+  },
+  {
+    id: 47,
+    place: "udemy",
+    course: "Understanding TypeScript - 2020 Edition",
+    courseLink: "https://www.udemy.com/course/understanding-typescript/",
+    length: "22 timmar video",
+    description: "Ytterligare en ordentlig kurs i TypeScript",
+    teacher: "Maximilian Schwarzmüller",
+    teacherLink:
+      "https://www.udemy.com/course/understanding-typescript/#instructor-1",
+    completion: "48",
+    grade: ""
   }
 ];
 
