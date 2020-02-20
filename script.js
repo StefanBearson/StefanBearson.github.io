@@ -1,3 +1,8 @@
+console.lgg(
+  "%c Version: 1.0.001 ©Stefan Björnson 💻",
+  "color: pink; font-weight:bolder; background-color: black"
+);
+
 const printEmplymentList = () => {
   let output = document.getElementById("emplymentslist");
   let html = "";
