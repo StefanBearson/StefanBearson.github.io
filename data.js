@@ -519,7 +519,7 @@ let courses = [
     teacher: "Stephen Grider",
     teacherLink:
       "https://www.udemy.com/course/typescript-the-complete-developers-guide/#instructor-1",
-    completion: "23",
+    completion: "43",
     grade: ""
   },
   {
