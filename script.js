@@ -1,5 +1,5 @@
-console.lgg(
-  "%c Version: 1.0.001 ©Stefan Björnson 💻",
+console.log(
+  "%c Version: 1.0.002 ©Stefan Björnson 💻",
   "color: pink; font-weight:bolder; background-color: black"
 );
 
