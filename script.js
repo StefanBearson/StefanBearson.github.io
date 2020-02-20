@@ -1,6 +1,12 @@
+// console.log(
+//   "%c --::Version: 1.0.003::-- ©2020 Stefan Björnson ",
+//   "color: chocolate; font-weight:bolder; background-color: black; font-size:15px"
+// );
 console.log(
-  "%c Version: 1.0.002 ©Stefan Björnson 💻",
-  "color: pink; font-weight:bolder; background-color: black"
+  "%c --::Version: %c1.0.003%c::-- ©2020 Stefan Björnson ",
+  "color: chocolate; font-weight:bolder; background-color: black; font-size:15px",
+  "color: white; font-weight:bolder; background-color: black; font-size:15px",
+  "color: chocolate; font-weight:bolder; background-color: black; font-size:15px"
 );
 
 const printEmplymentList = () => {
