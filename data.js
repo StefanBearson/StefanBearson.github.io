@@ -569,7 +569,7 @@ let courses = [
     course: 'NodeJS - The Complete Guide (incl. MVC, REST APIs, GraphQL)',
     courseLink: 'https://www.udemy.com/course/nodejs-the-complete-guide/',
     length: '36 timmar video',
-    description: 'Automapper i C# projekt',
+    description: 'En ganska så ingående kurs i NodeJS',
     teacher: 'Maximilian Schwarzmuller',
     teacherLink:
       'https://www.udemy.com/course/nodejs-the-complete-guide/#instructor-1',
