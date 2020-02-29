@@ -362,7 +362,7 @@ let courses = [
       'En kurs i ASP NET Core, man jobbar med bland annat Entity Framwork, Web Api, MVC. Kursen innehåller även också Angular, men där la jag för tillfället inte så mycket energi, då vi ska gå igenom React i vår utbildning sedan. Angular ligger troligen i pipelinen sedan för mig att titta närmare på.',
     teacher: '',
     teacherLink: '',
-    completion: '49',
+    completion: '100',
     grade: ''
   },
   {
@@ -586,7 +586,7 @@ let courses = [
     teacher: 'Mosh Hamedani',
     teacherLink:
       'https://www.udemy.com/course/xamarin-forms-course/#instructor-1',
-    completion: '68',
+    completion: '100',
     grade: ''
   },
   {

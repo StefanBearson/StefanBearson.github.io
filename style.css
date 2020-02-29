@@ -18,7 +18,7 @@ html {
   height: 100%;
   margin: 0;
   width: 100%;
-  font: 400 15px/1.8 "Lato", sans-serif;
+  font: 400 15px/1.8 'Lato', sans-serif;
   color: #777;
   box-sizing: border-box;
   overflow-x: hidden;
@@ -32,7 +32,9 @@ html {
 .bigPadding {
   padding: 50px 80px;
 }
-
+.bold {
+  font-weight: bold;
+}
 .darkbg {
   background-color: var(--dark-bg);
   color: var(--light-text);
@@ -57,20 +59,20 @@ html {
   background-size: cover;
 }
 .bgimg-1 {
-  background-image: url("Code.jpg");
+  background-image: url('Code.jpg');
   min-height: 100%;
   width: 100%;
 }
 
 .bgimg-2 {
-  background-image: url("jag.jpg");
+  background-image: url('jag.jpg');
   min-height: 400px;
   width: 100%;
   filter: saturate(10%);
 }
 
 .bgimg-3 {
-  background-image: url("MinBak.jpg");
+  background-image: url('MinBak.jpg');
   min-height: 400px;
   width: 100%;
   filter: saturate(50%);
@@ -147,7 +149,7 @@ h2 {
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
+  font: 20px 'Lato', sans-serif;
   font-size: 3em;
   text-align: center;
   margin-bottom: 4px;
@@ -202,7 +204,7 @@ p.info {
   h3 {
     letter-spacing: 5px;
     /* text-transform: uppercase; */
-    font: 20px "Lato", sans-serif;
+    font: 20px 'Lato', sans-serif;
     color: var(--dark-bg);
     font-size: 2em;
     text-align: center;
