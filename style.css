@@ -199,7 +199,7 @@ p.info {
     margin-bottom: 8px;
   }
   span {
-    margin-bottom: 200px !important;
+    /* margin-bottom: 200px !important; */
   }
   h3 {
     letter-spacing: 5px;
