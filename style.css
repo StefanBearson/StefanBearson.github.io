@@ -203,12 +203,12 @@ p.info {
     letter-spacing: 5px;
     /* text-transform: uppercase; */
     font: 20px 'Lato', sans-serif;
-    color: var(--dark-bg);
+    color: var(--light-text);
     font-size: 2em;
     text-align: center;
   }
   div.emailme {
-    background-color: var(--light-bg);
+    background-color: var(--dark-bg);
     border: none;
   }
   .emailme {
