@@ -201,7 +201,6 @@ p.info {
 
   h3 {
     letter-spacing: 5px;
-    /* text-transform: uppercase; */
     font: 20px 'Lato', sans-serif;
     color: var(--light-text);
     font-size: 2em;
@@ -281,4 +280,19 @@ div.info {
   -webkit-box-shadow: inset 0px 5px 4px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: inset 0px 5px 4px 0px rgba(0, 0, 0, 0.75);
   box-shadow: inset 0px 5px 4px 0px rgba(0, 0, 0, 0.75);
+}
+
+@media print {
+  body,
+  html {
+    box-sizing: content-box !important;
+    overflow-x: visible !important;
+  }
+  body * {
+    display: none;
+  }
+  .printable,
+  .printable > * {
+    display: block !important;
+  }
 }
