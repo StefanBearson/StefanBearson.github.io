@@ -348,7 +348,7 @@ let courses = [
       'En omfattande kurs i C#! Man får lära sig WPF, Databashantering, Linq, och en del spelprogrammering.',
     teacher: 'Denis Panjuta',
     teacherLink: 'https://www.udemy.com/user/denispanjuta/',
-    completion: '59',
+    completion: '73',
     grade: ''
   },
   {
