@@ -118,6 +118,9 @@ const udemycoursesAction = document.getElementById('udemycoursesaction');
 udemycoursesAction.addEventListener('click', function() {
   if (udemycoursesInfo.classList.contains('hidden')) {
     udemycoursesInfo.classList.replace('hidden', 'notHidden');
+    toastr.info(
+      'De röda områdena i vissa kurser visar hur mycket jag har kvar av just den kursen.'
+    );
   } else {
     udemycoursesInfo.classList.replace('notHidden', 'hidden');
   }
