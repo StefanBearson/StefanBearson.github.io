@@ -1,16 +1,15 @@
 :root {
   --white: white;
-  --dark2-bg: #494f5c;
-  --light-bg: white;
-  --dark-text: black;
-  --light-text: rgb(199, 198, 218);
+  /* --dark2-bg: #494f5c; */
+  --light-bg: rgb(250, 250, 255);
+  --light-text: rgb(250, 250, 255);
+  --dark-bg: #282e34;
+  --dark-text: #282e34;
   --buttom: #494f5c;
-  /* --buttom: #2f4f4f; */
   --buttom-hover: #626a7a;
-  /* --buttom-hover: #559191; */
   --text-hover: rgb(108, 108, 139);
   --prime: #e0851c;
-  --dark-bg: #282e34;
+
   --dark-transparent: rgba(0, 0, 0, 0.2);
   --item-border-radius: 3px;
 }
