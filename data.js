@@ -440,7 +440,7 @@ let courses = [
     description: 'En kurs där man går lite mer på djupet på Entity Framework.',
     teacher: 'Mosh Hamedani',
     teacherLink: 'https://www.udemy.com/user/moshfeghhamedani/',
-    completion: '30',
+    completion: '89',
     grade: ''
   },
   {
