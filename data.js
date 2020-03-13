@@ -374,7 +374,7 @@ let courses = [
     description: 'En kurs i jQueary.',
     teacher: 'Joe Parys',
     teacherLink: 'https://www.udemy.com/user/josephparys/',
-    completion: '48',
+    completion: '100',
     grade: ''
   },
   {
