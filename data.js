@@ -642,6 +642,18 @@ let courses = [
       'https://www.udemy.com/course/understanding-typescript/#instructor-1',
     completion: '52',
     grade: ''
+  },
+  {
+    id: 48,
+    place: 'udemy',
+    course: 'GitHub Ultimate: Master Git and GitHub - Beginner to Expert',
+    courseLink: 'https://www.udemy.com/course/github-ultimate/',
+    length: '6.5 timmar video',
+    description: 'En ordentlig genomgån av Git och GitHub',
+    teacher: 'Jason Taylor',
+    teacherLink: 'https://www.udemy.com/course/github-ultimate/#instructor-1',
+    completion: '0',
+    grade: ''
   }
 ];
 
