@@ -505,7 +505,7 @@ let courses = [
     description: 'En kurs hur man testar sin kod automatiskt via bla NUnit m.m',
     teacher: 'Mosh Hamedani',
     teacherLink: 'https://www.udemy.com/unit-testing-csharp/#instructor-1',
-    completion: '91',
+    completion: '100',
     grade: ''
   },
   {
