@@ -560,7 +560,7 @@ let courses = [
     teacher: 'Maximilian Schwarzmuller',
     teacherLink:
       'https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced/#instructor-1',
-    completion: '31',
+    completion: '36',
     grade: ''
   },
   {

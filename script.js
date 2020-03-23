@@ -1,5 +1,5 @@
 console.log(
-  '%c --::Version:  %c1.0.021 %c ::-- ©2020 Stefan Björnson ',
+  '%c --::Version:  %c1.0.022 %c ::-- ©2020 Stefan Björnson ',
   'color: chocolate; font-weight:bolder; background-color: black; font-size:15px',
   'color: white; font-weight:bolder; background-color: black; font-size:15px',
   'color: chocolate; font-weight:bolder; background-color: black; font-size:15px'
