@@ -560,7 +560,7 @@ let courses = [
     teacher: 'Maximilian Schwarzmuller',
     teacherLink:
       'https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced/#instructor-1',
-    completion: '36',
+    completion: '40',
     grade: ''
   },
   {
@@ -613,7 +613,7 @@ let courses = [
       'Azure, kurs för att klara AZ-300 certifiering, kanske inga planer för att göra provet, men känner att kunskap om Azure kan vara bra att ha i bakhuvudet, och för att få bättre förståelse för vilka möjligheter man har med Azure, och för den delen andra stora molntjänster.',
     teacher: 'Scott Duffy',
     teacherLink: 'https://www.udemy.com/course/70534-azure/#instructor-1',
-    completion: '23',
+    completion: '31',
     grade: ''
   },
   {
