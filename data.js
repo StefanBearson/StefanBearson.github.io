@@ -646,6 +646,21 @@ let courses = [
   {
     id: 48,
     place: 'udemy',
+    course: 'The Data Science Course 2020: Complete Data Science Bootcamp',
+    courseLink:
+      'https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/',
+    length: '28.5 timmar video',
+    description:
+      'En gedigen kurs i hur man hanterar stora mängder data. Kursen går igenom matte, statestik, python, avancerad statestik med python, Maskin inlärning och mycket mer roligt.',
+    teacher: '',
+    teacherLink:
+      'https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/#instructor-1',
+    completion: '0',
+    grade: ''
+  },
+  {
+    id: 49,
+    place: 'udemy',
     course: 'GitHub Ultimate: Master Git and GitHub - Beginner to Expert',
     courseLink: 'https://www.udemy.com/course/github-ultimate/',
     length: '6.5 timmar video',
