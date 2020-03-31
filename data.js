@@ -667,7 +667,7 @@ let courses = [
     description: 'En ordentlig genomgån av Git och GitHub',
     teacher: 'Jason Taylor',
     teacherLink: 'https://www.udemy.com/course/github-ultimate/#instructor-1',
-    completion: '30',
+    completion: '60',
     grade: ''
   }
 ];
