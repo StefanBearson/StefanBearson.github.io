@@ -560,7 +560,7 @@ let courses = [
     teacher: 'Maximilian Schwarzmuller',
     teacherLink:
       'https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced/#instructor-1',
-    completion: '50',
+    completion: '51',
     grade: ''
   },
   {
@@ -667,7 +667,7 @@ let courses = [
     description: 'En ordentlig genomgån av Git och GitHub',
     teacher: 'Jason Taylor',
     teacherLink: 'https://www.udemy.com/course/github-ultimate/#instructor-1',
-    completion: '60',
+    completion: '70',
     grade: ''
   }
 ];
