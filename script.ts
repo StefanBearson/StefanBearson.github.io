@@ -1,3 +1,6 @@
+import { employment, courses } from './data';
+import * as toastr from 'toastr';
+
 console.log(
   '%c --::Version:  %c1.0.025 %c ::-- ©2020 Stefan Björnson ',
   'color: chocolate; font-weight:bolder; background-color: black; font-size:15px',
@@ -9,7 +12,7 @@ const printEmplymentList = () => {
   let output = document.getElementById('emplymentslist');
   let html = '';
 
-  employment.map(e => {
+  employment.map((e) => {
     html += `
     <div class='listitem employment'>
       <h4>${e.jobtitle}</h4>
@@ -27,7 +30,7 @@ const printYHList = () => {
   let output = document.getElementById('yhlist');
   let html = '';
 
-  courses.map(e => {
+  courses.map((e) => {
     if (e.place == 'EC Utbildning AB Helsingborg') {
       html += `
       <a href=${e.courseLink}>
@@ -48,7 +51,7 @@ const printudemyList = () => {
   let output = document.getElementById('udemylist');
   let html = '';
 
-  courses.map(e => {
+  courses.map((e) => {
     if (e.place != 'EC Utbildning AB Helsingborg') {
       html += `
         <a href=${e.courseLink}>
@@ -76,7 +79,7 @@ printYHList();
 const udemyInfo = document.getElementById('udemyinfo');
 const udmeyAction = document.getElementById('udemyaction');
 
-udmeyAction.addEventListener('click', function() {
+udmeyAction.addEventListener('click', function () {
   if (udemyInfo.classList.contains('hidden')) {
     udemyInfo.classList.replace('hidden', 'notHidden');
   } else {
@@ -87,7 +90,7 @@ udmeyAction.addEventListener('click', function() {
 const ecInfo = document.getElementById('ecinfo');
 const ecAction = document.getElementById('ecaction');
 
-ecAction.addEventListener('click', function() {
+ecAction.addEventListener('click', function () {
   if (ecInfo.classList.contains('hidden')) {
     ecInfo.classList.replace('hidden', 'notHidden');
   } else {
@@ -98,7 +101,7 @@ ecAction.addEventListener('click', function() {
 const eccoursesInfo = document.getElementById('eccoursesinfo');
 const eccoursesAction = document.getElementById('eccoursesaction');
 
-eccoursesAction.addEventListener('click', function() {
+eccoursesAction.addEventListener('click', function () {
   if (eccoursesInfo.classList.contains('hidden')) {
     eccoursesInfo.classList.replace('hidden', 'notHidden');
   } else {
@@ -109,7 +112,7 @@ eccoursesAction.addEventListener('click', function() {
 const udemycoursesInfo = document.getElementById('udemycoursesinfo');
 const udemycoursesAction = document.getElementById('udemycoursesaction');
 
-udemycoursesAction.addEventListener('click', function() {
+udemycoursesAction.addEventListener('click', function () {
   if (udemycoursesInfo.classList.contains('hidden')) {
     udemycoursesInfo.classList.replace('hidden', 'notHidden');
     toastr.info(
@@ -123,7 +126,7 @@ udemycoursesAction.addEventListener('click', function() {
 const aboutmeInfo = document.getElementById('aboutmeinfo');
 const aboutmeAction = document.getElementById('aboutmeaction');
 
-aboutmeAction.addEventListener('click', function() {
+aboutmeAction.addEventListener('click', function () {
   if (aboutmeInfo.classList.contains('hidden')) {
     aboutmeInfo.classList.replace('hidden', 'notHidden');
   } else {
@@ -134,7 +137,7 @@ aboutmeAction.addEventListener('click', function() {
 const employmentInfo = document.getElementById('employmentinfo');
 const employmentAction = document.getElementById('employmentaction');
 
-employmentAction.addEventListener('click', function() {
+employmentAction.addEventListener('click', function () {
   if (employmentInfo.classList.contains('hidden')) {
     employmentInfo.classList.replace('hidden', 'notHidden');
   } else {

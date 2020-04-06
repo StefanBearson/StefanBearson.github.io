@@ -1,4 +1,4 @@
-let courses = [
+export const courses = [
   {
     id: 0,
     place: 'EC Utbildning AB Helsingborg',
@@ -11,7 +11,7 @@ let courses = [
     teacher: 'Robert Tublen',
     teacherLink: 'https://www.linkedin.com/in/rtublen/',
     completion: '100',
-    grade: 'VG'
+    grade: 'VG',
   },
   {
     id: 1,
@@ -25,7 +25,7 @@ let courses = [
     teacher: 'Robert Tublen',
     teacherLink: 'https://www.linkedin.com/in/rtublen/',
     completion: '100',
-    grade: 'VG'
+    grade: 'VG',
   },
   {
     id: 2,
@@ -39,7 +39,7 @@ let courses = [
     teacher: 'Robert Tublen',
     teacherLink: 'https://www.linkedin.com/in/rtublen/',
     completion: '100',
-    grade: 'VG'
+    grade: 'VG',
   },
   {
     id: 3,
@@ -53,7 +53,7 @@ let courses = [
     teacher: 'Björn Jönsson',
     teacherLink: 'https://www.linkedin.com/in/bj%C3%B6rn-j%C3%B6nsson-7a69501/',
     completion: '100',
-    grade: 'G'
+    grade: 'G',
   },
   {
     id: 4,
@@ -67,7 +67,7 @@ let courses = [
     teacher: 'Björn Jönsson',
     teacherLink: 'https://www.linkedin.com/in/bj%C3%B6rn-j%C3%B6nsson-7a69501/',
     completion: '100',
-    grade: 'VG'
+    grade: 'VG',
   },
   {
     id: 5,
@@ -81,7 +81,7 @@ let courses = [
     teacher: 'Robert Tublen',
     teacherLink: 'https://www.linkedin.com/in/rtublen/',
     completion: '0',
-    grade: 'VG'
+    grade: 'VG',
   },
   {
     id: 6,
@@ -95,7 +95,7 @@ let courses = [
     teacher: 'Robert Tublen',
     teacherLink: 'https://www.linkedin.com/in/rtublen/',
     completion: '0',
-    grade: 'VG'
+    grade: 'VG',
   },
   {
     id: 7,
@@ -109,7 +109,7 @@ let courses = [
     teacher: 'Robert Tublen',
     teacherLink: 'https://www.linkedin.com/in/rtublen/',
     completion: '100',
-    grade: 'VG'
+    grade: 'VG',
   },
   {
     id: 8,
@@ -123,7 +123,7 @@ let courses = [
     teacher: 'Thomas Frank',
     teacherLink: 'https://www.linkedin.com/in/rtublen/',
     completion: '0',
-    grade: 'VG'
+    grade: 'VG',
   },
   {
     id: 9,
@@ -137,7 +137,7 @@ let courses = [
     teacher: 'Robert Tublen',
     teacherLink: 'https://www.linkedin.com/in/rtublen/',
     completion: '0',
-    grade: 'Ej Avslutad'
+    grade: 'Ej Avslutad',
   },
   {
     id: 10,
@@ -151,7 +151,7 @@ let courses = [
     teacher: 'Robert Tublen',
     teacherLink: 'https://www.linkedin.com/in/rtublen/',
     completion: '0',
-    grade: 'VG'
+    grade: 'VG',
   },
   {
     id: 11,
@@ -165,7 +165,7 @@ let courses = [
     teacher: 'Robert Tublen',
     teacherLink: 'https://www.linkedin.com/in/rtublen/',
     completion: '0',
-    grade: 'Ej avslutad'
+    grade: 'Ej avslutad',
   },
   {
     id: 12,
@@ -179,7 +179,7 @@ let courses = [
     teacher: 'Robert Tublen',
     teacherLink: 'https://www.linkedin.com/in/rtublen/',
     completion: '0',
-    grade: 'VG'
+    grade: 'VG',
   },
   {
     id: 13,
@@ -193,7 +193,7 @@ let courses = [
     teacher: 'Robert Tublen',
     teacherLink: 'https://www.linkedin.com/in/rtublen/',
     completion: '100',
-    grade: 'VG'
+    grade: 'VG',
   },
   {
     id: 14,
@@ -207,7 +207,7 @@ let courses = [
     teacher: 'Laurence Svekis',
     teacherLink: 'https://www.udemy.com/user/lars51/',
     completion: '100',
-    grade: ''
+    grade: '',
   },
   {
     id: 15,
@@ -219,7 +219,7 @@ let courses = [
     teacher: 'Mosh Hamedani',
     teacherLink: 'https://www.udemy.com/user/moshfeghhamedani/',
     completion: '100',
-    grade: ''
+    grade: '',
   },
   {
     id: 16,
@@ -232,7 +232,7 @@ let courses = [
     teacher: 'Mosh Hamedani',
     teacherLink: 'https://www.udemy.com/user/moshfeghhamedani/',
     completion: '100',
-    grade: ''
+    grade: '',
   },
   {
     id: 17,
@@ -244,7 +244,7 @@ let courses = [
     teacher: 'Mosh Hamedani',
     teacherLink: 'https://www.udemy.com/user/moshfeghhamedani/',
     completion: '100',
-    grade: ''
+    grade: '',
   },
   {
     id: 18,
@@ -258,7 +258,7 @@ let courses = [
     teacher: 'Tim Buchalka',
     teacherLink: 'https://www.udemy.com/user/timbuchalka/',
     completion: '100',
-    grade: ''
+    grade: '',
   },
   {
     id: 19,
@@ -271,7 +271,7 @@ let courses = [
     teacher: 'Yogesh Patel',
     teacherLink: 'https://www.udemy.com/user/programmingknowledge/',
     completion: '100',
-    grade: ''
+    grade: '',
   },
   {
     id: 20,
@@ -285,7 +285,7 @@ let courses = [
     teacherLink:
       'https://www.udemy.com/user/ce4194f5-2ef9-4222-b5e2-22b0aa21999a/',
     completion: '100',
-    grade: ''
+    grade: '',
   },
   {
     id: 21,
@@ -298,7 +298,7 @@ let courses = [
     teacher: 'Mark Price',
     teacherLink: 'https://www.udemy.com/user/mark-price-2/',
     completion: '100',
-    grade: ''
+    grade: '',
   },
   {
     id: 22,
@@ -311,7 +311,7 @@ let courses = [
     teacher: 'Jason Rybka',
     teacherLink: 'https://www.udemy.com/user/jasonrybka/',
     completion: '100',
-    grade: ''
+    grade: '',
   },
   {
     id: 23,
@@ -323,7 +323,7 @@ let courses = [
     teacher: 'Laurence Svekis',
     teacherLink: 'https://www.udemy.com/user/lars51/',
     completion: '100',
-    grade: ''
+    grade: '',
   },
   {
     id: 24,
@@ -336,7 +336,7 @@ let courses = [
     teacher: 'Mosh Hamedani',
     teacherLink: 'https://www.udemy.com/user/moshfeghhamedani/',
     completion: '100',
-    grade: ''
+    grade: '',
   },
   {
     id: 25,
@@ -349,7 +349,7 @@ let courses = [
     teacher: 'Denis Panjuta',
     teacherLink: 'https://www.udemy.com/user/denispanjuta/',
     completion: '100',
-    grade: ''
+    grade: '',
   },
   {
     id: 26,
@@ -363,7 +363,7 @@ let courses = [
     teacher: '',
     teacherLink: '',
     completion: '100',
-    grade: ''
+    grade: '',
   },
   {
     id: 27,
@@ -375,7 +375,7 @@ let courses = [
     teacher: 'Joe Parys',
     teacherLink: 'https://www.udemy.com/user/josephparys/',
     completion: '100',
-    grade: ''
+    grade: '',
   },
   {
     id: 28,
@@ -388,7 +388,7 @@ let courses = [
     teacher: 'Mark Price',
     teacherLink: 'https://www.udemy.com/user/mark-price-2/',
     completion: '100',
-    grade: ''
+    grade: '',
   },
   {
     id: 29,
@@ -403,7 +403,7 @@ let courses = [
     teacherLink:
       'https://www.udemy.com/full-stack-development-with-react-and-aspnet-core-2/#instructor-1',
     completion: '100',
-    grade: ''
+    grade: '',
   },
   {
     id: 30,
@@ -416,7 +416,7 @@ let courses = [
     teacherLink:
       'https://www.udemy.com/course/understanding-typescript/#instructor-1',
     completion: '100',
-    grade: ''
+    grade: '',
   },
   {
     id: 31,
@@ -429,7 +429,7 @@ let courses = [
     teacher: 'Mark Price',
     teacherLink: 'https://www.udemy.com/user/mark-price-2/',
     completion: '35',
-    grade: ''
+    grade: '',
   },
   {
     id: 32,
@@ -441,7 +441,7 @@ let courses = [
     teacher: 'Mosh Hamedani',
     teacherLink: 'https://www.udemy.com/user/moshfeghhamedani/',
     completion: '100',
-    grade: ''
+    grade: '',
   },
   {
     id: 33,
@@ -453,7 +453,7 @@ let courses = [
     teacher: 'Maximilian Schwarzmüller',
     teacherLink: 'https://www.udemy.com/user/academind/',
     completion: '29',
-    grade: ''
+    grade: '',
   },
   {
     id: 34,
@@ -466,7 +466,7 @@ let courses = [
     teacher: 'Ben Tristem',
     teacherLink: 'https://www.udemy.com/blendertutorial/#instructor-1',
     completion: '6',
-    grade: ''
+    grade: '',
   },
   {
     id: 35,
@@ -480,7 +480,7 @@ let courses = [
     teacherLink:
       'https://www.udemy.com/python-the-complete-python-developer-course/#instructor-1',
     completion: '15',
-    grade: ''
+    grade: '',
   },
   {
     id: 36,
@@ -494,7 +494,7 @@ let courses = [
     teacherLink:
       'https://www.udemy.com/design-patterns-csharp-dotnet/#instructor-1',
     completion: '18',
-    grade: ''
+    grade: '',
   },
   {
     id: 37,
@@ -506,7 +506,7 @@ let courses = [
     teacher: 'Mosh Hamedani',
     teacherLink: 'https://www.udemy.com/unit-testing-csharp/#instructor-1',
     completion: '100',
-    grade: ''
+    grade: '',
   },
   {
     id: 38,
@@ -520,7 +520,7 @@ let courses = [
     teacherLink:
       'https://www.udemy.com/course/typescript-the-complete-developers-guide/#instructor-1',
     completion: '100',
-    grade: ''
+    grade: '',
   },
   {
     id: 39,
@@ -533,7 +533,7 @@ let courses = [
     teacherLink:
       'https://www.udemy.com/course/c-automapper-code-smart/#instructor-1',
     completion: '100',
-    grade: ''
+    grade: '',
   },
   {
     id: 40,
@@ -547,7 +547,7 @@ let courses = [
     teacherLink:
       'https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/#instructor-1',
     completion: '71',
-    grade: ''
+    grade: '',
   },
   {
     id: 41,
@@ -561,7 +561,7 @@ let courses = [
     teacherLink:
       'https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced/#instructor-1',
     completion: '60',
-    grade: ''
+    grade: '',
   },
   {
     id: 42,
@@ -574,7 +574,7 @@ let courses = [
     teacherLink:
       'https://www.udemy.com/course/nodejs-the-complete-guide/#instructor-1',
     completion: '17',
-    grade: ''
+    grade: '',
   },
   {
     id: 43,
@@ -587,7 +587,7 @@ let courses = [
     teacherLink:
       'https://www.udemy.com/course/xamarin-forms-course/#instructor-1',
     completion: '100',
-    grade: ''
+    grade: '',
   },
   {
     id: 44,
@@ -601,7 +601,7 @@ let courses = [
     teacherLink:
       'https://www.udemy.com/course/visual-studio-tips-tricks/#instructor-1',
     completion: '100',
-    grade: ''
+    grade: '',
   },
   {
     id: 45,
@@ -614,7 +614,7 @@ let courses = [
     teacher: 'Scott Duffy',
     teacherLink: 'https://www.udemy.com/course/70534-azure/#instructor-1',
     completion: '31',
-    grade: ''
+    grade: '',
   },
   {
     id: 46,
@@ -628,7 +628,7 @@ let courses = [
     teacherLink:
       'https://www.udemy.com/course/design-patterns-in-typescript/#instructor-1',
     completion: '45',
-    grade: ''
+    grade: '',
   },
   {
     id: 47,
@@ -641,7 +641,7 @@ let courses = [
     teacherLink:
       'https://www.udemy.com/course/understanding-typescript/#instructor-1',
     completion: '52',
-    grade: ''
+    grade: '',
   },
   {
     id: 48,
@@ -656,7 +656,7 @@ let courses = [
     teacherLink:
       'https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/#instructor-1',
     completion: '0',
-    grade: ''
+    grade: '',
   },
   {
     id: 49,
@@ -668,18 +668,18 @@ let courses = [
     teacher: 'Jason Taylor',
     teacherLink: 'https://www.udemy.com/course/github-ultimate/#instructor-1',
     completion: '70',
-    grade: ''
-  }
+    grade: '',
+  },
 ];
 
-let employment = [
+export const employment = [
   {
     company: 'Skogs Tryckeri, JMS',
     jobtitle: 'Tryckeribiträde',
     start: '1999-06-01',
     end: '2008-03-01',
     description:
-      'Vad man kan ha med sig från denna arbetsplats som är till nytta inom just programmering?  Nu var det väldigt längesedan jag jobbade på JMS, men några saker man fick lära sig som jag tagit med mig är vikten av noggrannhet och att hårt slit lönar sig för att få ett bra resultat.'
+      'Vad man kan ha med sig från denna arbetsplats som är till nytta inom just programmering?  Nu var det väldigt längesedan jag jobbade på JMS, men några saker man fick lära sig som jag tagit med mig är vikten av noggrannhet och att hårt slit lönar sig för att få ett bra resultat.',
   },
   {
     company: 'Falck, G4S, Avarn',
@@ -687,6 +687,6 @@ let employment = [
     start: '2008-05-01',
     end: '2018-08-01',
     description:
-      'Vad man kan ha med sig från denna arbetsplats som är till nytta inom just programmering? Lojalitet både till arbetsgivare och till kunder, alltid tänka på sekretessen, allt är inte alltid lämpligt att prata om. Man blir även varse om hur viktigt ens team är, att man genom att stötta och hjälper varandra kan nå väldigt långt och få bra produktivitet.'
-  }
+      'Vad man kan ha med sig från denna arbetsplats som är till nytta inom just programmering? Lojalitet både till arbetsgivare och till kunder, alltid tänka på sekretessen, allt är inte alltid lämpligt att prata om. Man blir även varse om hur viktigt ens team är, att man genom att stötta och hjälper varandra kan nå väldigt långt och få bra produktivitet.',
+  },
 ];

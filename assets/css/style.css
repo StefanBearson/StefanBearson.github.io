@@ -63,20 +63,20 @@ html {
   background-size: cover;
 }
 .bgimg-1 {
-  background-image: url('Code.jpg');
+  background-image: url('../images/code.jpg');
   min-height: 100%;
   width: 100%;
 }
 
 .bgimg-2 {
-  background-image: url('jag.jpg');
+  background-image: url('../images/jag.jpg');
   min-height: 400px;
   width: 100%;
   filter: saturate(10%);
 }
 
 .bgimg-3 {
-  background-image: url('MinBak.jpg');
+  background-image: url('../images/MinBak.jpg');
   min-height: 400px;
   width: 100%;
   filter: saturate(50%);
