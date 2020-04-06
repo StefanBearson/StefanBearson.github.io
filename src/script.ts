@@ -90,11 +90,25 @@ document
     document.getElementById('eccoursesinfo').classList.toggle('toggleView');
   });
 
-document
-  .getElementById('udemycoursesaction')
-  .addEventListener('click', function () {
-    document.getElementById('udemycoursesinfo').classList.toggle('toggleView');
-  });
+const udemycoursesInfo = document.getElementById('udemycoursesinfo');
+const udemycoursesAction = document.getElementById('udemycoursesaction');
+
+udemycoursesAction.addEventListener('click', function () {
+  if (udemycoursesInfo.classList.contains('hidden')) {
+    udemycoursesInfo.classList.replace('hidden', 'notHidden');
+    toastr.info(
+      'De röda områdena i vissa kurser visar hur mycket jag har kvar av just den kursen.'
+    );
+  } else {
+    udemycoursesInfo.classList.replace('notHidden', 'hidden');
+  }
+});
+
+// document
+//   .getElementById('udemycoursesaction')
+//   .addEventListener('click', function () {
+//     document.getElementById('udemycoursesinfo').classList.toggle('toggleView');
+//   });
 
 document.getElementById('aboutmeaction').addEventListener('click', function () {
   document.getElementById('aboutmeinfo').classList.toggle('toggleView');
