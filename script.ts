@@ -1,5 +1,6 @@
 import { employment, courses } from './data';
 import * as toastr from 'toastr';
+
 console.log(
   '%c --::Version:  %c1.0.025 %c ::-- ©2020 Stefan Björnson ',
   'color: chocolate; font-weight:bolder; background-color: black; font-size:15px',
