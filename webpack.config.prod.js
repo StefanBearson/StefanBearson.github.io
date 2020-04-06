@@ -2,7 +2,7 @@ const path = require('path');
 const CleanPluging = require('clean-webpack-plugin');
 
 module.exports = {
-  mode: 'development',
+  mode: 'production',
   resolve: {
     extensions: ['.ts', '.tsx'],
   },
@@ -30,7 +30,8 @@ module.exports = {
     path: path.resolve(__dirname, 'assets', 'scripts'),
     publicPath: 'assets/scripts/',
   },
-  devtool: 'cheap-module-source-map',
+  //devtool: 'cheap-module-source-map',
+  //devtool: 'cheap-source-map',
   devServer: {
     contentBase: './',
   },
