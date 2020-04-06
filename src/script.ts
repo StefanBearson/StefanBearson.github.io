@@ -76,71 +76,32 @@ printEmplymentList();
 printudemyList();
 printYHList();
 
-const udemyInfo = document.getElementById('udemyinfo');
-const udmeyAction = document.getElementById('udemyaction');
-
-udmeyAction.addEventListener('click', function () {
-  if (udemyInfo.classList.contains('hidden')) {
-    udemyInfo.classList.replace('hidden', 'notHidden');
-  } else {
-    udemyInfo.classList.replace('notHidden', 'hidden');
-  }
+document.getElementById('udemyaction').addEventListener('click', function () {
+  document.getElementById('udemyinfo').classList.toggle('toggleView');
 });
 
-const ecInfo = document.getElementById('ecinfo');
-const ecAction = document.getElementById('ecaction');
-
-ecAction.addEventListener('click', function () {
-  if (ecInfo.classList.contains('hidden')) {
-    ecInfo.classList.replace('hidden', 'notHidden');
-  } else {
-    ecInfo.classList.replace('notHidden', 'hidden');
-  }
+document.getElementById('ecaction').addEventListener('click', function () {
+  document.getElementById('ecinfo').classList.toggle('toggleView');
 });
 
-const eccoursesInfo = document.getElementById('eccoursesinfo');
-const eccoursesAction = document.getElementById('eccoursesaction');
+document
+  .getElementById('eccoursesaction')
+  .addEventListener('click', function () {
+    document.getElementById('eccoursesinfo').classList.toggle('toggleView');
+  });
 
-eccoursesAction.addEventListener('click', function () {
-  if (eccoursesInfo.classList.contains('hidden')) {
-    eccoursesInfo.classList.replace('hidden', 'notHidden');
-  } else {
-    eccoursesInfo.classList.replace('notHidden', 'hidden');
-  }
+document
+  .getElementById('udemycoursesaction')
+  .addEventListener('click', function () {
+    document.getElementById('udemycoursesinfo').classList.toggle('toggleView');
+  });
+
+document.getElementById('aboutmeaction').addEventListener('click', function () {
+  document.getElementById('aboutmeinfo').classList.toggle('toggleView');
 });
 
-const udemycoursesInfo = document.getElementById('udemycoursesinfo');
-const udemycoursesAction = document.getElementById('udemycoursesaction');
-
-udemycoursesAction.addEventListener('click', function () {
-  if (udemycoursesInfo.classList.contains('hidden')) {
-    udemycoursesInfo.classList.replace('hidden', 'notHidden');
-    toastr.info(
-      'De röda områdena i vissa kurser visar hur mycket jag har kvar av just den kursen.'
-    );
-  } else {
-    udemycoursesInfo.classList.replace('notHidden', 'hidden');
-  }
-});
-
-const aboutmeInfo = document.getElementById('aboutmeinfo');
-const aboutmeAction = document.getElementById('aboutmeaction');
-
-aboutmeAction.addEventListener('click', function () {
-  if (aboutmeInfo.classList.contains('hidden')) {
-    aboutmeInfo.classList.replace('hidden', 'notHidden');
-  } else {
-    aboutmeInfo.classList.replace('notHidden', 'hidden');
-  }
-});
-
-const employmentInfo = document.getElementById('employmentinfo');
-const employmentAction = document.getElementById('employmentaction');
-
-employmentAction.addEventListener('click', function () {
-  if (employmentInfo.classList.contains('hidden')) {
-    employmentInfo.classList.replace('hidden', 'notHidden');
-  } else {
-    employmentInfo.classList.replace('notHidden', 'hidden');
-  }
-});
+document
+  .getElementById('employmentaction')
+  .addEventListener('click', function () {
+    document.getElementById('employmentinfo').classList.toggle('toggleView');
+  });

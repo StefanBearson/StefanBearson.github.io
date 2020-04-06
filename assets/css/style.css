@@ -181,6 +181,14 @@ p.info {
   display: block;
 }
 
+/* This is testing */
+.toggleHide {
+  display: none;
+}
+.toggleView {
+  display: block;
+}
+/* end */
 .action {
   background-color: var(--buttom);
   color: var(--light-text);
