@@ -8,6 +8,12 @@ console.log(
   'color: chocolate; font-weight:bolder; background-color: black; font-size:15px'
 );
 
+const startUp = () => {
+  toastr.info(
+    'Är ni intresserade av en hungrig, lättlärd och trevlig junior systemutvecklare, var inte rädd för att kontakta mig!'
+  );
+};
+
 const printEmplymentList = () => {
   let output = document.getElementById('emplymentslist');
   let html = '';
@@ -47,7 +53,7 @@ const printYHList = () => {
   output.innerHTML = html;
 };
 
-const printudemyList = () => {
+const printUdemyList = () => {
   let output = document.getElementById('udemylist');
   let html = '';
 
@@ -73,8 +79,9 @@ const printudemyList = () => {
 };
 
 printEmplymentList();
-printudemyList();
+printUdemyList();
 printYHList();
+startUp();
 
 document.getElementById('udemyaction').addEventListener('click', function () {
   document.getElementById('udemyinfo').classList.toggle('toggleView');
