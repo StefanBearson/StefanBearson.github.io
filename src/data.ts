@@ -428,7 +428,7 @@ export const courses = [
       'En kurs i Unity, man lär sig att göra 2d och 3d spel i programmet Unity, språket som binder ihop alltihop är C#.',
     teacher: 'Mark Price',
     teacherLink: 'https://www.udemy.com/user/mark-price-2/',
-    completion: '35',
+    completion: '100',
     grade: '',
   },
   {
@@ -560,7 +560,7 @@ export const courses = [
     teacher: 'Maximilian Schwarzmuller',
     teacherLink:
       'https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced/#instructor-1',
-    completion: '60',
+    completion: '70',
     grade: '',
   },
   {
