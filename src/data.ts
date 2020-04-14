@@ -560,7 +560,7 @@ export const courses = [
     teacher: 'Maximilian Schwarzmuller',
     teacherLink:
       'https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced/#instructor-1',
-    completion: '70',
+    completion: '80',
     grade: '',
   },
   {
