@@ -17,6 +17,9 @@
   display: none;
 }
 
+svg path {
+  fill: var(--prime);
+}
 body,
 html {
   height: 100%;
