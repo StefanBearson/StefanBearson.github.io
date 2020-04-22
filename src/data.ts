@@ -546,7 +546,7 @@ export const courses = [
     teacher: 'Stephen Grider',
     teacherLink:
       'https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/#instructor-1',
-    completion: '71',
+    completion: '100',
     grade: '',
   },
   {
