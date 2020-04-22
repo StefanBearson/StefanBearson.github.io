@@ -640,7 +640,7 @@ export const courses = [
     teacher: 'Maximilian Schwarzmüller',
     teacherLink:
       'https://www.udemy.com/course/understanding-typescript/#instructor-1',
-    completion: '52',
+    completion: '82',
     grade: '',
   },
   {
