@@ -493,7 +493,7 @@ export const courses = [
     teacher: 'Dmitri Nesteruk',
     teacherLink:
       'https://www.udemy.com/design-patterns-csharp-dotnet/#instructor-1',
-    completion: '18',
+    completion: '22',
     grade: '',
   },
   {
@@ -627,7 +627,7 @@ export const courses = [
     teacher: 'Packet Publishing',
     teacherLink:
       'https://www.udemy.com/course/design-patterns-in-typescript/#instructor-1',
-    completion: '45',
+    completion: '60',
     grade: '',
   },
   {
