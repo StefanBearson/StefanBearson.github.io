@@ -16,8 +16,15 @@
   display: none;
 }
 
-* {
+*:not(.token) {
   font-family: 'Fira Sans', sans-serif;
+}
+
+
+.token {
+  font-family: font-family: 'Roboto Mono', monospace;;
+  /* font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace !important; */ */
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 
 svg path {
