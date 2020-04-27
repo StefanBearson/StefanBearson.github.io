@@ -680,7 +680,7 @@ export const courses = [
     description: 'Modern Javascript kurs',
     teacher: 'Andrew Mead',
     teacherLink: 'https://www.udemy.com/course/modern-javascript/#instructor-1',
-    completion: '36',
+    completion: '72',
     grade: '',
   },
 ];
