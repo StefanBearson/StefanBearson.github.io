@@ -9,12 +9,15 @@
   --buttom-hover: #626a7a;
   --text-hover: rgb(108, 108, 139);
   --prime: #e0851c;
-
   --dark-transparent: rgba(0, 0, 0, 0.2);
   --item-border-radius: 3px;
 }
 .big-screen-menu {
   display: none;
+}
+
+* {
+  font-family: 'Fira Sans', sans-serif;
 }
 
 svg path {
