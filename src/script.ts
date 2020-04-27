@@ -101,21 +101,15 @@ const udemycoursesInfo = document.getElementById('udemycoursesinfo');
 const udemycoursesAction = document.getElementById('udemycoursesaction');
 
 udemycoursesAction.addEventListener('click', function () {
-  if (udemycoursesInfo.classList.contains('hidden')) {
-    udemycoursesInfo.classList.replace('hidden', 'notHidden');
+  if (udemycoursesInfo.classList.contains('toggleView')) {
+    document.getElementById('udemycoursesinfo').classList.remove('toggleView');
+  } else {
+    document.getElementById('udemycoursesinfo').classList.add('toggleView');
     toastr.info(
       'De röda områdena i vissa kurser visar hur mycket jag har kvar av just den kursen.'
     );
-  } else {
-    udemycoursesInfo.classList.replace('notHidden', 'hidden');
   }
 });
-
-// document
-//   .getElementById('udemycoursesaction')
-//   .addEventListener('click', function () {
-//     document.getElementById('udemycoursesinfo').classList.toggle('toggleView');
-//   });
 
 document.getElementById('aboutmeaction').addEventListener('click', function () {
   document.getElementById('aboutmeinfo').classList.toggle('toggleView');

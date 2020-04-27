@@ -670,6 +670,19 @@ export const courses = [
     completion: '100',
     grade: '',
   },
+  ,
+  {
+    id: 50,
+    place: 'udemy',
+    course: 'The Modern JavaScript Bootcamp',
+    courseLink: 'https://www.udemy.com/course/modern-javascript/',
+    length: '29.5 timmar video',
+    description: 'Modern Javascript kurs',
+    teacher: 'Andrew Mead',
+    teacherLink: 'https://www.udemy.com/course/modern-javascript/#instructor-1',
+    completion: '36',
+    grade: '',
+  },
 ];
 
 export const employment = [

@@ -206,9 +206,11 @@ p.info {
 /* This is testing */
 .toggleHide {
   display: none;
+  animation: fadein 2s;
 }
 .toggleView {
   display: block;
+  animation: fadeIn 1s;
 }
 /* end */
 .action {
