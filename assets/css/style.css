@@ -169,19 +169,25 @@ h2 {
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
-  font: 20px 'Lato', sans-serif;
+  /* font: 20px 'Lato', sans-serif; */
   font-size: 3em;
   text-align: center;
   margin-bottom: 4px;
+}
+h4 {
+  font-weight: 100;
+  font-size: 1.2em;
+  margin: 4px 0px;
+  letter-spacing: 1px;
+}
+h5 {
+  padding-top: 8px;
+  margin: 0;
 }
 .prime {
   color: var(--prime);
 }
 
-h5 {
-  padding-top: 8px;
-  margin: 0;
-}
 p.time {
   padding: 0px 4px 0px 4px;
   margin: 0;
