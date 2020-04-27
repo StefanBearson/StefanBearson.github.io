@@ -20,13 +20,16 @@
   font-family: 'Fira Sans', sans-serif;
 }
 
-
 .token {
-  font-family: font-family: 'Roboto Mono', monospace;;
-  /* font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace !important; */ */
-  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: 'Roboto Mono', monospace;
 }
 
+.importantNote {
+  background-color: var(--prime);
+  font-size: 130%;
+  padding: 4px;
+  border-radius: var(--item-border-radius);
+}
 svg path {
   fill: var(--prime);
 }
@@ -257,6 +260,8 @@ div.info {
   p {
     margin: 0;
     margin-bottom: 8px;
+    padding-left: 6px;
+    padding-right: 6px;
   }
 
   h3 {
