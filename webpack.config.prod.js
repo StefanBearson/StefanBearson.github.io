@@ -22,14 +22,6 @@ module.exports = {
         test: /\.js$/,
         loader: 'source-map-loader',
       },
-      {
-        test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
-      },
-      {
-        test: /\.(png|svg|jpg|gif)$/,
-        use: ['url-loader'],
-      },
     ],
   },
   entry: './src/script.ts',
