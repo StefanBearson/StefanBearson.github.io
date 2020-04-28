@@ -1,5 +1,8 @@
 import { employment, courses } from './data';
 import * as toastr from 'toastr';
+import './css/prism.css';
+import './css/style.css';
+import './css/toastr.css';
 
 console.log(
   '%c --::Version:  %c1.1.1 %c ::-- ©2020 Stefan Björnson ',
