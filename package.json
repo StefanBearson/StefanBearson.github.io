@@ -1,44 +1,44 @@
 {
-  "name": "StefanBearson.github.io",
-  "version": "1.0.0",
-  "description": "Stefans CV page",
-  "main": "data.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "build:dev": "webpack-dev-server --no-inline",
-    "build:prod": "webpack --config webpack.config.prod.js"
-  },
-  "dependencies": {
-    "@types/jquery": "^3.3.34",
-    "@types/prismjs": "^1.16.0",
-    "@types/toastr": "^2.1.37",
-    "jquery": "^3.4.1",
-    "prismjs": "^1.20.0",
-    "toastr": "^2.1.4"
-  },
-  "devDependencies": {
-    "clean-webpack-plugin": "^3.0.0",
-    "css-loader": "^3.5.3",
-    "file-loader": "^6.0.0",
-    "source-map-loader": "^0.2.4",
-    "style-loader": "^1.2.0",
-    "ts-loader": "^6.2.2",
-    "typescript": "^3.8.3",
-    "url-loader": "^4.1.0",
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/StefanBearson/StefanBearson.github.io.git"
-  },
-  "keywords": [],
-  "author": "Stefan Björnson",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/StefanBearson/StefanBearson.github.io/issues"
-  },
-  "homepage": "https://github.com/StefanBearson/StefanBearson.github.io#readme"
+	"name": "stefanbearson",
+	"version": "1.0.0",
+	"description": "Stefans CV page",
+	"main": "data.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build:dev": "webpack-dashboard -- webpack-dev-server --no-inline",
+		"build:prod": "webpack --config webpack.config.prod.js"
+	},
+	"dependencies": {
+		"@types/jquery": "^3.3.34",
+		"@types/prismjs": "^1.16.0",
+		"@types/toastr": "^2.1.37",
+		"jquery": "^3.4.1",
+		"prismjs": "^1.20.0",
+		"toastr": "^2.1.4"
+	},
+	"devDependencies": {
+		"clean-webpack-plugin": "^3.0.0",
+		"css-loader": "^3.5.3",
+		"file-loader": "^6.0.0",
+		"source-map-loader": "^0.2.4",
+		"style-loader": "^1.2.0",
+		"ts-loader": "^6.2.2",
+		"typescript": "^3.8.3",
+		"url-loader": "^4.1.0",
+		"webpack": "^4.42.1",
+		"webpack-cli": "^3.3.11",
+		"webpack-dashboard": "^3.2.0",
+		"webpack-dev-server": "^3.10.3"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/StefanBearson/StefanBearson.github.io.git"
+	},
+	"keywords": [],
+	"author": "Stefan Björnson",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/StefanBearson/StefanBearson.github.io/issues"
+	},
+	"homepage": "https://github.com/StefanBearson/StefanBearson.github.io#readme"
 }
