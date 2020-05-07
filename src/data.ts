@@ -323,8 +323,7 @@ export const courses = [
 		course: 'Complete C# Masterclass',
 		courseLink: 'https://www.udemy.com/complete-csharp-masterclass/',
 		length: '28,5 timmar video',
-		description:
-			'En omfattande kurs i C#! Man får lära sig WPF, Databashantering, Linq, och en del spelprogrammering.',
+		description: 'En omfattande kurs i C#! Man får lära sig WPF, Databashantering, Linq, och en del spelprogrammering.',
 		teacher: 'Denis Panjuta',
 		teacherLink: 'https://www.udemy.com/user/denispanjuta/',
 		completion: '100',
@@ -427,7 +426,7 @@ export const courses = [
 		description: 'En kurs i react, inklusive Hooks, React Router, Redux',
 		teacher: 'Maximilian Schwarzmüller',
 		teacherLink: 'https://www.udemy.com/user/academind/',
-		completion: '29',
+		completion: '41',
 		grade: ''
 	},
 	{
@@ -585,7 +584,7 @@ export const courses = [
 			'Design Patterns i TypeScript, går igenom de vanliga desingmönster som finns och hur man använder och framförallt var man ska använda dom.',
 		teacher: 'Packet Publishing',
 		teacherLink: 'https://www.udemy.com/course/design-patterns-in-typescript/#instructor-1',
-		completion: '60',
+		completion: '100',
 		grade: ''
 	},
 	{
@@ -609,8 +608,7 @@ export const courses = [
 		description:
 			'En gedigen kurs i hur man hanterar stora mängder data. Kursen går igenom matte, statestik, python, avancerad statestik med python, Maskin inlärning och mycket mer roligt.',
 		teacher: '',
-		teacherLink:
-			'https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/#instructor-1',
+		teacherLink: 'https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/#instructor-1',
 		completion: '0',
 		grade: ''
 	},
@@ -636,6 +634,18 @@ export const courses = [
 		teacher: 'Andrew Mead',
 		teacherLink: 'https://www.udemy.com/course/modern-javascript/#instructor-1',
 		completion: '100',
+		grade: ''
+	},
+	{
+		id: 51,
+		place: 'udemy',
+		course: 'The Complete C# Programming Course',
+		courseLink: 'https://www.udemy.com/course/the-complete-csharp-programming-course/',
+		length: '22 timmar video',
+		description: 'C# och .NET kurs',
+		teacher: 'Rob Percival',
+		teacherLink: 'https://www.udemy.com/course/the-complete-csharp-programming-course/#instructor-1',
+		completion: '55',
 		grade: ''
 	}
 ];
