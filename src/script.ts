@@ -64,8 +64,8 @@ const printUdemyList = () => {
           <div class='listitem' style='background: linear-gradient(90deg, 
             rgba(255,255,255,1) 0%, 
             rgba(255,255,255,1) ${e.completion}%,
-            rgba(223,198,198,1) ${e.completion}%,
-            rgba(223,198,198,1) ${e.completion}%)'>
+            rgb(252, 211, 159) ${e.completion}%,
+            rgb(252, 211, 159) ${e.completion}%)'>
             <h5>${e.course}</h5>
             <p class='info'>${e.description}</p>
             <p class='time'>${e.length}</p>
