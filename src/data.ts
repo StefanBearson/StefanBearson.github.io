@@ -534,7 +534,7 @@ export const courses = [
 		description: 'En ganska så ingående kurs i NodeJS',
 		teacher: 'Maximilian Schwarzmuller',
 		teacherLink: 'https://www.udemy.com/course/nodejs-the-complete-guide/#instructor-1',
-		completion: '25',
+		completion: '30',
 		grade: ''
 	},
 	{
@@ -571,7 +571,7 @@ export const courses = [
 			'Azure, kurs för att klara AZ-300 certifiering, kanske inga planer för att göra provet, men känner att kunskap om Azure kan vara bra att ha i bakhuvudet, och för att få bättre förståelse för vilka möjligheter man har med Azure, och för den delen andra stora molntjänster.',
 		teacher: 'Scott Duffy',
 		teacherLink: 'https://www.udemy.com/course/70534-azure/#instructor-1',
-		completion: '31',
+		completion: '70',
 		grade: ''
 	},
 	{
