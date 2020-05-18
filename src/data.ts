@@ -426,7 +426,7 @@ export const courses = [
 		description: 'En kurs i react, inklusive Hooks, React Router, Redux',
 		teacher: 'Maximilian Schwarzmüller',
 		teacherLink: 'https://www.udemy.com/user/academind/',
-		completion: '41',
+		completion: '60',
 		grade: ''
 	},
 	{
@@ -571,7 +571,7 @@ export const courses = [
 			'Azure, kurs för att klara AZ-300 certifiering, kanske inga planer för att göra provet, men känner att kunskap om Azure kan vara bra att ha i bakhuvudet, och för att få bättre förståelse för vilka möjligheter man har med Azure, och för den delen andra stora molntjänster.',
 		teacher: 'Scott Duffy',
 		teacherLink: 'https://www.udemy.com/course/70534-azure/#instructor-1',
-		completion: '70',
+		completion: '100',
 		grade: ''
 	},
 	{

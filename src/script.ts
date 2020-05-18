@@ -1,8 +1,12 @@
 import { employment, courses } from './data';
 import * as toastr from 'toastr';
+// import '../assets/css/404.css'
+// import '../assets/css/prism.css'
+// import '../assets/css/style.css'
+// import '../assets/css/toastr.css'
 
 console.log(
-	'%c --::Version:  %c1.2.3 %c ::-- ©2020 Stefan Björnson ',
+	'%c --::Version:  %c1.3.0 %c ::-- ©2020 Stefan Björnson ',
 	'color: chocolate; font-weight:bolder; background-color: black; font-size:15px',
 	'color: white; font-weight:bolder; background-color: black; font-size:15px',
 	'color: chocolate; font-weight:bolder; background-color: black; font-size:15px'
