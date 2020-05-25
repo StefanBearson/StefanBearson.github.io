@@ -645,7 +645,7 @@ export const courses = [
 		description: 'C# och .NET kurs',
 		teacher: 'Rob Percival',
 		teacherLink: 'https://www.udemy.com/course/the-complete-csharp-programming-course/#instructor-1',
-		completion: '55',
+		completion: '100',
 		grade: ''
 	}
 ];
