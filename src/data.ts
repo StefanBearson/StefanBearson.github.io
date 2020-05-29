@@ -126,7 +126,7 @@ export const courses = [
 		teacher: 'Robert Tublen',
 		teacherLink: 'https://www.linkedin.com/in/rtublen/',
 		completion: '0',
-		grade: 'Ej Avslutad'
+		grade: 'VG'
 	},
 	{
 		id: 10,
@@ -152,7 +152,7 @@ export const courses = [
 		teacher: 'Robert Tublen',
 		teacherLink: 'https://www.linkedin.com/in/rtublen/',
 		completion: '0',
-		grade: 'Ej avslutad'
+		grade: 'VG'
 	},
 	{
 		id: 12,
