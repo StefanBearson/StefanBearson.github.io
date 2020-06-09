@@ -534,7 +534,7 @@ export const courses = [
 		description: 'En ganska så ingående kurs i NodeJS',
 		teacher: 'Maximilian Schwarzmuller',
 		teacherLink: 'https://www.udemy.com/course/nodejs-the-complete-guide/#instructor-1',
-		completion: '45',
+		completion: '75',
 		grade: ''
 	},
 	{
