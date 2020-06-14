@@ -14,7 +14,7 @@ console.log(
 
 const startUp = () => {
 	toastr.info(
-		'Är ni intresserade av en hungrig, lättlärd och trevlig junior systemutvecklare, var inte rädd för att kontakta mig!'
+		'Nice to be important, but more important to be nice!'
 	);
 };
 
