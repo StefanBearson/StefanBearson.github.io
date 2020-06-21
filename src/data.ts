@@ -426,7 +426,7 @@ export const courses = [
 		description: 'En kurs i react, inklusive Hooks, React Router, Redux',
 		teacher: 'Maximilian Schwarzmüller',
 		teacherLink: 'https://www.udemy.com/user/academind/',
-		completion: '60',
+		completion: '95',
 		grade: ''
 	},
 	{
@@ -647,7 +647,19 @@ export const courses = [
 		teacherLink: 'https://www.udemy.com/course/the-complete-csharp-programming-course/#instructor-1',
 		completion: '100',
 		grade: ''
-	}
+	},
+	{
+		id: 52,
+		place: 'udemy',
+		course: 'Progressive Web Apps (PWA) - The Complete Guide',
+		courseLink: 'https://www.udemy.com/course/progressive-web-app-pwa-the-complete-guide/',
+		length: '16 timmar video',
+		description: 'En kurs som går igenom grundligt hur en PWA funkerar och hur man skapar en sådan!',
+		teacher: 'Maximilian Schwarzmüller',
+		teacherLink: 'https://www.udemy.com/course/progressive-web-app-pwa-the-complete-guide/#instructor-1',
+		completion: '2',
+		grade: ''
+	},
 ];
 
 export const employment = [
