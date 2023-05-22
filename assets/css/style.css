@@ -345,3 +345,18 @@ div.info {
     padding: 4px;
   }
 }
+
+strong {
+	font-weight: 900!important;
+  color: #444 !important;
+  border-bottom: #aaa solid 1px;
+}
+
+.title {
+  border-bottom: 4px solid #222;
+	font-weight: 900;
+}
+
+#competenciesinfo p {
+  padding-left: 6px;
+}

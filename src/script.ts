@@ -65,14 +65,8 @@ const printUdemyList = () => {
 		if (e.place != 'EC Utbildning AB Helsingborg') {
 			html += `
         <a href=${e.courseLink}>
-          <div class='listitem' style='background: linear-gradient(90deg, 
-            rgba(255,255,255,1) 0%, 
-            rgba(255,255,255,1) ${e.completion}%,
-            rgb(252, 211, 159) ${e.completion}%,
-            rgb(252, 211, 159) ${e.completion}%)'>
+          <div class='listitem'>
             <h5>${e.course}</h5>
-            <p class='info'>${e.description}</p>
-            <p class='time'>${e.length}</p>
           </div>
         </a>
       `;
@@ -113,6 +107,10 @@ udemycoursesAction.addEventListener('click', function() {
 
 document.getElementById('aboutmeaction').addEventListener('click', function() {
 	document.getElementById('aboutmeinfo').classList.toggle('toggleView');
+});
+
+document.getElementById('competenciesaction').addEventListener('click', function() {
+	document.getElementById('competenciesinfo').classList.toggle('toggleView');
 });
 
 document.getElementById('employmentaction').addEventListener('click', function() {

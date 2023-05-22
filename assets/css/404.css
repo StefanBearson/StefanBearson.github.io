@@ -8,6 +8,17 @@ body {
 	margin: 0;
 }
 
+strong {
+	font-weight: 900;
+}
+
+.title {
+	background-color: #222;
+	color: #999;
+	font-weight: 900;
+	padding: 60px;
+}
+
 #notfound {
 	height: 100vh;
 	background-size: cover;

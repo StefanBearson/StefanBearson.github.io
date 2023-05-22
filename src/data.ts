@@ -678,5 +678,13 @@ export const employment = [
 		end: '2018-08-01',
 		description:
 			'Vad man kan ha med sig från denna arbetsplats som är till nytta inom just programmering? Lojalitet både till arbetsgivare och till kunder, alltid tänka på sekretessen, allt är inte alltid lämpligt att prata om. Man blir även varse om hur viktigt ens team är, att man genom att stötta och hjälper varandra kan nå väldigt långt och få bra produktivitet.'
+	},
+	{
+		company: 'EG',
+		jobtitle: 'Systemutvecklare',
+		start: '2020-07-01',
+		end: '...',
+		description:
+			'Jobbat otroligt brett, både backend och frontend. Gjort frontendappar i React, Vue, ASP.NET och Angular. Mestadels på senare tid i Angular, men har ändå ingen klar favorit bland dom tre stora frontend biblotek/framworksen. Samtliga har sina för och nackdelar, men dagens moderna verktyg har mestadels fördelar anser jag, Jag föredrar helt klart att koda Javascript i Typescript. Även jobbat mycket backend där jag förutom enklare REST APIer, även gjort system som tar hand om meddelande både internt i systemet men även extern ut som tex mail eller SMS. Gjort en smart microservice lösning som användt sig av Kafkabus för kommunicera in till servicarna. '
 	}
 ];
